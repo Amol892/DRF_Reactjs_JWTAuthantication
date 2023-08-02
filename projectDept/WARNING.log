@@ -1,0 +1,123 @@
+WARNING 2023-08-02 17:18:53,082 log Bad Request: /department/projectdetails/
+WARNING 2023-08-02 17:18:53,083 basehttp "POST /department/projectdetails/ HTTP/1.1" 400 52
+WARNING 2023-08-02 17:21:14,582 log Bad Request: /department/projectdetails/
+WARNING 2023-08-02 17:21:14,583 basehttp "POST /department/projectdetails/ HTTP/1.1" 400 46
+WARNING 2023-08-02 17:22:54,446 log Not Found: /department/projectdetails/12/
+WARNING 2023-08-02 17:22:54,448 basehttp "GET /department/projectdetails/12/ HTTP/1.1" 404 23
+WARNING 2023-08-02 17:25:16,255 log Method Not Allowed: /department/projectdetails/11/
+WARNING 2023-08-02 17:25:16,256 basehttp "POST /department/projectdetails/11/ HTTP/1.1" 405 41
+WARNING 2023-08-02 17:25:38,331 log Method Not Allowed: /department/projectdetails/11/
+WARNING 2023-08-02 17:25:38,333 basehttp "POST /department/projectdetails/11/ HTTP/1.1" 405 41
+ERROR 2023-08-02 17:29:25,075 log Internal Server Error: /department/projectdetails/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    request = self.initialize_request(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 394, in initialize_request
+    authenticators=self.get_authenticators(),
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 272, in get_authenticators
+    return [auth() for auth in self.authentication_classes]
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 272, in <listcomp>
+    return [auth() for auth in self.authentication_classes]
+TypeError: 'list' object is not callable
+ERROR 2023-08-02 17:29:25,078 basehttp "POST /department/projectdetails/ HTTP/1.1" 500 94691
+WARNING 2023-08-02 17:29:54,681 log Unauthorized: /department/projectdetails/
+WARNING 2023-08-02 17:29:54,683 basehttp "POST /department/projectdetails/ HTTP/1.1" 401 58
+WARNING 2023-08-02 17:31:01,205 log Not Found: /department/projectdetails/10/
+WARNING 2023-08-02 17:31:01,206 basehttp "DELETE /department/projectdetails/10/ HTTP/1.1" 404 23
+WARNING 2023-08-02 18:39:43,716 log Bad Request: /department/projectdetails/
+WARNING 2023-08-02 18:39:43,755 basehttp "POST /department/projectdetails/ HTTP/1.1" 400 142
+WARNING 2023-08-02 18:40:39,869 log Bad Request: /department/projectdetails/
+WARNING 2023-08-02 18:40:39,869 basehttp "POST /department/projectdetails/ HTTP/1.1" 400 48
+WARNING 2023-08-02 18:41:22,505 log Bad Request: /department/projectdetails/
+WARNING 2023-08-02 18:41:22,506 basehttp "POST /department/projectdetails/ HTTP/1.1" 400 48
+WARNING 2023-08-02 18:55:32,087 log Bad Request: /department/projectdetails/
+WARNING 2023-08-02 18:55:32,088 basehttp "POST /department/projectdetails/ HTTP/1.1" 400 48
+WARNING 2023-08-02 18:57:07,047 log Bad Request: /department/projectdetails/
+WARNING 2023-08-02 18:57:07,048 basehttp "POST /department/projectdetails/ HTTP/1.1" 400 52
+WARNING 2023-08-02 18:59:17,236 log Bad Request: /department/projectdetails/
+WARNING 2023-08-02 18:59:17,238 basehttp "POST /department/projectdetails/ HTTP/1.1" 400 95
+WARNING 2023-08-02 19:05:44,005 log Not Found: /
+WARNING 2023-08-02 19:05:44,006 basehttp "GET / HTTP/1.1" 404 2499
+WARNING 2023-08-02 19:05:44,883 log Not Found: /
+WARNING 2023-08-02 19:05:44,884 basehttp "GET / HTTP/1.1" 404 2499
+WARNING 2023-08-02 19:42:08,454 log Bad Request: /department/projectdetails/27/
+WARNING 2023-08-02 19:42:08,455 basehttp "PUT /department/projectdetails/27/ HTTP/1.1" 400 48
+ERROR 2023-08-02 19:43:27,168 log Internal Server Error: /department/projectdetails/27/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: CHECK constraint failed: team_size
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\project\views.py", line 48, in put
+    serializer.save()
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\serializers.py", line 207, in save
+    self.instance = self.update(self.instance, validated_data)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\project\Serializers.py", line 26, in update
+    return super().update(instance, validated_data)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\serializers.py", line 1006, in update
+    instance.save()
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\db\models\base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\db\models\base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\db\models\query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: CHECK constraint failed: team_size
+ERROR 2023-08-02 19:43:27,201 basehttp "PUT /department/projectdetails/27/ HTTP/1.1" 500 207272
+WARNING 2023-08-02 21:32:05,838 log Bad Request: /accounts/register/
+WARNING 2023-08-02 21:32:05,839 basehttp "POST /accounts/register/ HTTP/1.1" 400 58
+WARNING 2023-08-02 22:15:14,308 log Unauthorized: /department/projectdetails/26/
+WARNING 2023-08-02 22:15:14,309 basehttp "GET /department/projectdetails/26/ HTTP/1.1" 401 183
+WARNING 2023-08-02 22:15:14,312 log Unauthorized: /department/projectdetails/26/
+WARNING 2023-08-02 22:15:14,313 basehttp "GET /department/projectdetails/26/ HTTP/1.1" 401 183
