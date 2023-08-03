@@ -121,3 +121,99 @@ WARNING 2023-08-02 22:15:14,308 log Unauthorized: /department/projectdetails/26/
 WARNING 2023-08-02 22:15:14,309 basehttp "GET /department/projectdetails/26/ HTTP/1.1" 401 183
 WARNING 2023-08-02 22:15:14,312 log Unauthorized: /department/projectdetails/26/
 WARNING 2023-08-02 22:15:14,313 basehttp "GET /department/projectdetails/26/ HTTP/1.1" 401 183
+WARNING 2023-08-03 21:55:50,969 log Not Found: /project/home/
+WARNING 2023-08-03 21:55:51,001 basehttp "GET /project/home/ HTTP/1.1" 404 2556
+WARNING 2023-08-03 22:00:19,861 log Bad Request: /accounts/register/
+WARNING 2023-08-03 22:00:19,863 basehttp "POST /accounts/register/ HTTP/1.1" 400 50
+ERROR 2023-08-03 22:24:31,155 log Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 21, in post
+    serializer.save()
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py", line 34, in create
+    domain = get_current_site(self)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\contrib\sites\shortcuts.py", line 18, in get_current_site
+    return RequestSite(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\contrib\sites\requests.py", line 11, in __init__
+    self.domain = self.name = request.get_host()
+AttributeError: 'registerUser' object has no attribute 'get_host'
+ERROR 2023-08-03 22:24:31,218 basehttp "POST /accounts/register/ HTTP/1.1" 500 125553
+WARNING 2023-08-03 22:26:32,021 log Bad Request: /accounts/register/
+WARNING 2023-08-03 22:26:32,022 basehttp "POST /accounts/register/ HTTP/1.1" 400 107
+WARNING 2023-08-03 22:28:55,479 log Not Found: /activate/MTA/bsdnrf-332986871dd0ea858ad19a5a95b471e4/
+WARNING 2023-08-03 22:28:55,480 basehttp "GET /activate/MTA/bsdnrf-332986871dd0ea858ad19a5a95b471e4/ HTTP/1.1" 404 2676
+ERROR 2023-08-03 22:44:58,242 log Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 29, in post
+    serializer.save()
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py", line 35, in create
+    domain = get_current_site(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\contrib\sites\shortcuts.py", line 18, in get_current_site
+    return RequestSite(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\contrib\sites\requests.py", line 11, in __init__
+    self.domain = self.name = request.get_host()
+AttributeError: 'NoneType' object has no attribute 'get_host'
+ERROR 2023-08-03 22:44:58,249 basehttp "POST /accounts/register/ HTTP/1.1" 500 121948
+ERROR 2023-08-03 22:54:40,459 log Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 29, in post
+    serializer.save()
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py", line 36, in create
+    current_site = validated_data.pop('current_site')
+KeyError: 'current_site'
+ERROR 2023-08-03 22:54:40,465 basehttp "POST /accounts/register/ HTTP/1.1" 500 115137
+WARNING 2023-08-03 22:58:31,238 log Not Found: /favicon.ico
+WARNING 2023-08-03 22:58:31,239 basehttp "GET /favicon.ico HTTP/1.1" 404 2713

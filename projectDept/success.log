@@ -1055,3 +1055,525 @@ INFO 2023-08-03 10:44:01,260 views All Project record fetched
 INFO 2023-08-03 10:44:01,265 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
 INFO 2023-08-03 10:44:01,269 views All Project record fetched
 INFO 2023-08-03 10:44:01,273 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 11:06:22,429 views All Project record fetched
+INFO 2023-08-03 11:06:22,433 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 11:06:22,434 views All Project record fetched
+INFO 2023-08-03 11:06:22,439 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 11:06:27,086 views All Project record fetched
+INFO 2023-08-03 11:06:27,091 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 11:06:27,094 views All Project record fetched
+INFO 2023-08-03 11:06:27,100 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 11:07:22,104 views All Project record fetched
+INFO 2023-08-03 11:07:22,108 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 11:07:22,110 views All Project record fetched
+INFO 2023-08-03 11:07:22,115 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 11:08:26,348 views All Project record fetched
+INFO 2023-08-03 11:08:26,352 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 11:08:26,395 views All Project record fetched
+INFO 2023-08-03 11:08:26,399 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 11:23:37,352 views All Project record fetched
+INFO 2023-08-03 11:23:37,356 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 11:23:37,359 views All Project record fetched
+INFO 2023-08-03 11:23:37,363 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 21:49:46,372 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 21:51:37,297 views All Project record fetched
+INFO 2023-08-03 21:51:37,342 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 21:51:37,357 views All Project record fetched
+INFO 2023-08-03 21:51:37,361 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 21:51:49,686 views All Project record fetched
+INFO 2023-08-03 21:51:49,688 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 21:51:49,691 views All Project record fetched
+INFO 2023-08-03 21:51:49,695 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 21:54:12,425 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\settings.py changed, reloading.
+INFO 2023-08-03 21:54:37,739 autoreload Watching for file changes with StatReloader
+WARNING 2023-08-03 21:55:50,969 log Not Found: /project/home/
+WARNING 2023-08-03 21:55:51,001 basehttp "GET /project/home/ HTTP/1.1" 404 2556
+INFO 2023-08-03 21:55:57,588 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-08-03 21:55:58,057 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2023-08-03 21:55:58,217 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-08-03 21:55:58,218 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-08-03 21:55:58,218 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-08-03 21:55:58,270 basehttp "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2023-08-03 21:55:58,270 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-08-03 21:55:58,271 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-08-03 21:55:58,328 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:07,787 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-08-03 21:56:07,871 basehttp "GET /admin/ HTTP/1.1" 200 9256
+INFO 2023-08-03 21:56:07,930 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:08,040 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:08,040 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:08,105 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2023-08-03 21:56:15,618 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 11496
+INFO 2023-08-03 21:56:15,648 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:15,651 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:15,654 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 21:56:15,654 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:15,665 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:15,704 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:15,704 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:15,738 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:15,739 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:15,789 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:15,834 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:15,835 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:23,623 basehttp "GET /admin/accounts/user/5/change/ HTTP/1.1" 200 25115
+INFO 2023-08-03 21:56:23,674 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:23,676 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:23,682 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 21:56:23,682 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:23,717 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:23,743 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:23,772 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:23,859 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:23,859 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2023-08-03 21:56:29,320 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 11496
+INFO 2023-08-03 21:56:29,341 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 21:57:28,497 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 21:57:32,352 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 21:58:10,668 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-03 21:58:11,386 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 21:58:43,181 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-03 21:58:43,823 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 21:58:46,533 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-03 21:58:47,065 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 21:59:06,464 views All Project record fetched
+INFO 2023-08-03 21:59:06,469 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 21:59:06,472 views All Project record fetched
+INFO 2023-08-03 21:59:06,479 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 21:59:27,730 views All Project record fetched
+INFO 2023-08-03 21:59:27,735 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 21:59:27,737 views All Project record fetched
+INFO 2023-08-03 21:59:27,742 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 22:00:19,811 basehttp "OPTIONS /accounts/register/ HTTP/1.1" 200 0
+WARNING 2023-08-03 22:00:19,861 log Bad Request: /accounts/register/
+WARNING 2023-08-03 22:00:19,863 basehttp "POST /accounts/register/ HTTP/1.1" 400 50
+INFO 2023-08-03 22:01:34,194 basehttp "POST /accounts/register/ HTTP/1.1" 201 347
+INFO 2023-08-03 22:01:45,615 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 11944
+INFO 2023-08-03 22:01:45,666 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 22:01:47,961 basehttp "GET /admin/accounts/user/6/change/ HTTP/1.1" 200 25053
+INFO 2023-08-03 22:01:48,055 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 22:02:17,079 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 11944
+INFO 2023-08-03 22:02:17,099 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 22:05:14,028 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-03 22:05:17,172 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:09:18,154 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:09:18,729 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:09:25,362 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:09:25,963 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:09:27,311 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:09:27,937 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:10:44,584 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:10:45,242 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:10:48,937 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:10:49,501 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:10:55,010 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:10:55,606 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:10:58,985 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:10:59,612 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:11:02,133 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:11:02,843 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:11:10,614 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:11:11,233 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:11:18,927 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:11:19,662 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:11:21,252 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:11:21,930 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:12:25,897 basehttp "POST /accounts/register/ HTTP/1.1" 201 347
+INFO 2023-08-03 22:12:32,989 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 12394
+INFO 2023-08-03 22:12:33,013 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 22:12:37,399 basehttp "GET /admin/accounts/user/7/change/ HTTP/1.1" 200 25048
+INFO 2023-08-03 22:12:37,430 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 22:12:53,510 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:12:54,364 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:12:55,812 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:12:56,391 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:13:07,588 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 12394
+INFO 2023-08-03 22:13:07,615 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 22:13:19,143 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\admin.py changed, reloading.
+INFO 2023-08-03 22:13:19,874 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:13:24,480 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\admin.py changed, reloading.
+INFO 2023-08-03 22:13:25,054 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:13:30,337 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 13139
+INFO 2023-08-03 22:13:30,388 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 22:13:30,443 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2023-08-03 22:13:30,443 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2023-08-03 22:14:08,968 basehttp "POST /admin/accounts/user/ HTTP/1.1" 200 8360
+INFO 2023-08-03 22:14:09,042 basehttp "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+INFO 2023-08-03 22:14:10,692 basehttp "POST /admin/accounts/user/ HTTP/1.1" 302 0
+INFO 2023-08-03 22:14:10,711 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10604
+INFO 2023-08-03 22:14:10,732 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 22:14:12,393 basehttp "GET /admin/project/project_details/ HTTP/1.1" 200 9444
+INFO 2023-08-03 22:14:12,412 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 22:14:14,549 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10469
+INFO 2023-08-03 22:14:14,574 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 22:15:06,988 basehttp "POST /accounts/register/ HTTP/1.1" 201 361
+INFO 2023-08-03 22:15:12,289 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 11017
+INFO 2023-08-03 22:15:12,308 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 22:15:32,035 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:15:32,714 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:15:34,218 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:15:34,838 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:15:37,403 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:15:38,141 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:16:03,571 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:16:04,262 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:16:06,613 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:16:07,203 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:16:10,599 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:16:11,151 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:16:15,748 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:16:16,363 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:16:18,964 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:16:19,506 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:16:32,554 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:16:33,138 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:16:39,652 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:16:40,251 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:17:14,861 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:17:15,504 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:17:19,207 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:17:19,874 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:17:21,313 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:17:21,950 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:17:36,263 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:17:36,907 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:17:45,884 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:17:46,517 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:17:48,007 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:17:48,531 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:18:19,230 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:18:19,875 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:18:27,457 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:18:28,070 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:18:55,784 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:18:56,430 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:19:50,056 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:19:51,304 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:19:53,909 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:19:54,477 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:20:23,028 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:20:23,625 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:20:28,334 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:20:28,942 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:20:32,501 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:20:33,108 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:20:37,878 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:20:38,641 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:20:41,224 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:20:41,781 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:20:48,490 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:20:49,189 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:20:53,924 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:20:54,526 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:21:08,527 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:21:09,248 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:22:33,243 basehttp "POST /admin/accounts/user/ HTTP/1.1" 200 7945
+INFO 2023-08-03 22:22:34,940 basehttp "POST /admin/accounts/user/ HTTP/1.1" 302 0
+INFO 2023-08-03 22:22:34,969 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10067
+INFO 2023-08-03 22:22:34,991 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2023-08-03 22:24:31,155 log Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 21, in post
+    serializer.save()
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py", line 34, in create
+    domain = get_current_site(self)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\contrib\sites\shortcuts.py", line 18, in get_current_site
+    return RequestSite(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\contrib\sites\requests.py", line 11, in __init__
+    self.domain = self.name = request.get_host()
+AttributeError: 'registerUser' object has no attribute 'get_host'
+ERROR 2023-08-03 22:24:31,218 basehttp "POST /accounts/register/ HTTP/1.1" 500 125553
+INFO 2023-08-03 22:25:46,199 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:25:46,993 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:25:51,665 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:25:52,342 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:25:59,095 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:25:59,705 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:26:04,314 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:26:04,963 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:26:17,885 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:26:18,527 autoreload Watching for file changes with StatReloader
+WARNING 2023-08-03 22:26:32,021 log Bad Request: /accounts/register/
+WARNING 2023-08-03 22:26:32,022 basehttp "POST /accounts/register/ HTTP/1.1" 400 107
+INFO 2023-08-03 22:27:07,499 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10480
+INFO 2023-08-03 22:27:07,520 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 22:27:34,385 basehttp "POST /admin/accounts/user/ HTTP/1.1" 200 7803
+INFO 2023-08-03 22:27:36,102 basehttp "POST /admin/accounts/user/ HTTP/1.1" 302 0
+INFO 2023-08-03 22:27:36,122 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10066
+INFO 2023-08-03 22:27:36,141 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 22:28:33,640 basehttp "POST /accounts/register/ HTTP/1.1" 201 295
+INFO 2023-08-03 22:28:39,390 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10473
+INFO 2023-08-03 22:28:39,409 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2023-08-03 22:28:55,479 log Not Found: /activate/MTA/bsdnrf-332986871dd0ea858ad19a5a95b471e4/
+WARNING 2023-08-03 22:28:55,480 basehttp "GET /activate/MTA/bsdnrf-332986871dd0ea858ad19a5a95b471e4/ HTTP/1.1" 404 2676
+INFO 2023-08-03 22:30:50,662 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:30:51,303 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:30:59,062 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:30:59,773 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:31:03,427 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:31:03,951 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:31:06,277 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:31:06,914 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:31:14,667 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:31:15,302 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:31:20,954 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:31:21,568 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:31:23,922 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:31:24,500 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:31:29,105 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:31:29,736 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:31:35,517 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:31:36,158 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:31:40,757 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:31:41,359 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:31:43,959 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:31:44,658 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:32:24,743 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-03 22:32:25,340 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:32:35,153 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-03 22:32:35,729 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:32:42,257 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-03 22:32:42,881 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:33:03,240 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-03 22:33:03,862 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:33:15,953 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-03 22:33:16,879 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:34:04,413 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-03 22:34:05,020 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:35:22,697 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-03 22:35:23,321 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:35:32,992 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-03 22:35:33,612 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:35:40,221 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-03 22:35:40,881 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:35:46,369 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-03 22:35:46,971 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:35:49,429 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-03 22:35:50,065 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:35:53,434 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-03 22:35:54,014 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:36:01,540 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-03 22:36:02,118 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:36:03,659 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-03 22:36:04,211 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:39:00,786 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-03 22:39:02,329 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:39:31,735 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-03 22:39:32,324 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:39:36,767 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-03 22:39:37,452 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:39:40,842 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-03 22:39:41,389 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:39:49,938 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-03 22:39:50,650 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:39:52,999 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-03 22:39:53,566 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:39:56,912 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-03 22:39:57,629 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:41:27,663 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-03 22:41:28,278 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:41:39,253 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-03 22:41:39,893 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:41:47,504 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-03 22:41:48,062 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:43:13,092 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-03 22:43:13,908 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:43:19,580 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-03 22:43:20,201 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:43:35,268 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-03 22:43:35,858 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:44:18,521 basehttp "POST /admin/accounts/user/ HTTP/1.1" 200 7805
+INFO 2023-08-03 22:44:20,238 basehttp "POST /admin/accounts/user/ HTTP/1.1" 302 0
+INFO 2023-08-03 22:44:20,272 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10066
+INFO 2023-08-03 22:44:20,292 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2023-08-03 22:44:58,242 log Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 29, in post
+    serializer.save()
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py", line 35, in create
+    domain = get_current_site(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\contrib\sites\shortcuts.py", line 18, in get_current_site
+    return RequestSite(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\contrib\sites\requests.py", line 11, in __init__
+    self.domain = self.name = request.get_host()
+AttributeError: 'NoneType' object has no attribute 'get_host'
+ERROR 2023-08-03 22:44:58,249 basehttp "POST /accounts/register/ HTTP/1.1" 500 121948
+INFO 2023-08-03 22:52:58,977 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:52:59,838 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:53:07,591 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:53:08,192 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:53:12,820 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:53:13,505 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:53:14,941 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:53:15,456 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:53:38,884 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:53:39,496 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:53:44,179 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:53:44,812 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:53:57,062 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10470
+INFO 2023-08-03 22:53:57,089 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 22:54:15,469 basehttp "POST /admin/accounts/user/ HTTP/1.1" 200 7805
+INFO 2023-08-03 22:54:17,059 basehttp "POST /admin/accounts/user/ HTTP/1.1" 302 0
+INFO 2023-08-03 22:54:17,078 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10066
+INFO 2023-08-03 22:54:17,100 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2023-08-03 22:54:40,459 log Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 29, in post
+    serializer.save()
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py", line 36, in create
+    current_site = validated_data.pop('current_site')
+KeyError: 'current_site'
+ERROR 2023-08-03 22:54:40,465 basehttp "POST /accounts/register/ HTTP/1.1" 500 115137
+INFO 2023-08-03 22:55:52,851 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-03 22:55:53,521 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:56:03,472 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:56:04,061 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:56:07,674 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:56:08,243 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:56:20,154 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:56:20,762 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:56:28,531 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:56:29,184 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:56:32,888 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-03 22:56:33,444 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 22:56:56,065 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-03 22:56:56,088 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-08-03 22:56:56,088 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-08-03 22:56:56,102 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-08-03 22:56:56,102 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-08-03 22:56:56,103 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-08-03 22:56:56,108 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-08-03 22:56:56,116 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 22:56:56,127 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-08-03 22:56:56,127 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-08-03 22:56:56,132 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-08-03 22:56:56,134 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-08-03 22:56:56,139 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-08-03 22:56:56,144 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-08-03 22:56:56,160 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-08-03 22:56:56,164 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-08-03 22:56:56,165 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-08-03 22:56:56,170 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-08-03 22:57:16,216 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-03 22:57:16,237 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 22:57:28,863 basehttp "GET /admin/accounts/user/add/ HTTP/1.1" 200 24540
+INFO 2023-08-03 22:57:28,883 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2023-08-03 22:57:28,892 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 22:57:28,893 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2023-08-03 22:57:28,894 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2023-08-03 22:57:28,897 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2023-08-03 22:57:28,908 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2023-08-03 22:57:28,924 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2023-08-03 22:57:28,936 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-08-03 22:57:28,974 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2023-08-03 22:57:28,974 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2023-08-03 22:57:31,439 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-03 22:57:31,460 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 22:57:37,543 basehttp "POST /admin/accounts/user/ HTTP/1.1" 200 7805
+INFO 2023-08-03 22:57:39,228 basehttp "POST /admin/accounts/user/ HTTP/1.1" 302 0
+INFO 2023-08-03 22:57:39,246 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10066
+INFO 2023-08-03 22:57:39,266 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 22:58:16,316 basehttp "POST /accounts/register/ HTTP/1.1" 201 293
+INFO 2023-08-03 22:58:24,921 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-03 22:58:24,942 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 22:58:31,035 basehttp "GET /activate/MTM/bsdp4y-85919c3de23f7d8ebaa281361091911f/ HTTP/1.1" 200 41
+WARNING 2023-08-03 22:58:31,238 log Not Found: /favicon.ico
+WARNING 2023-08-03 22:58:31,239 basehttp "GET /favicon.ico HTTP/1.1" 404 2713
+INFO 2023-08-03 22:58:38,435 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-03 22:58:38,456 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 23:00:02,609 views All Project record fetched
+INFO 2023-08-03 23:00:02,612 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:00:02,615 views All Project record fetched
+INFO 2023-08-03 23:00:02,619 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:00:16,280 views All Project record fetched
+INFO 2023-08-03 23:00:16,283 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:00:16,285 views All Project record fetched
+INFO 2023-08-03 23:00:16,289 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:00:22,216 views All Project record fetched
+INFO 2023-08-03 23:00:22,220 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:00:22,224 views All Project record fetched
+INFO 2023-08-03 23:00:22,229 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:00:26,967 views All Project record fetched
+INFO 2023-08-03 23:00:26,970 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:00:26,973 views All Project record fetched
+INFO 2023-08-03 23:00:26,977 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:00:33,683 views Project record fetched
+INFO 2023-08-03 23:00:33,687 basehttp "GET /department/projectdetails/1/ HTTP/1.1" 200 299
+INFO 2023-08-03 23:00:33,702 views Project record fetched
+INFO 2023-08-03 23:00:33,706 basehttp "GET /department/projectdetails/1/ HTTP/1.1" 200 299
+INFO 2023-08-03 23:00:42,440 views All Project record fetched
+INFO 2023-08-03 23:00:42,443 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:00:42,446 views All Project record fetched
+INFO 2023-08-03 23:00:42,451 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:00:51,854 views All Project record fetched
+INFO 2023-08-03 23:00:51,857 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:00:51,861 views All Project record fetched
+INFO 2023-08-03 23:00:51,867 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:07:43,183 autoreload Watching for file changes with StatReloader
+INFO 2023-08-03 23:09:05,027 views All Project record fetched
+INFO 2023-08-03 23:09:05,091 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:09:05,134 views All Project record fetched
+INFO 2023-08-03 23:09:05,138 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:09:16,090 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-03 23:09:16,157 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 23:09:16,183 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2023-08-03 23:09:23,188 basehttp "POST /admin/accounts/user/ HTTP/1.1" 200 7805
+INFO 2023-08-03 23:09:24,954 basehttp "POST /admin/accounts/user/ HTTP/1.1" 302 0
+INFO 2023-08-03 23:09:24,969 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10066
+INFO 2023-08-03 23:09:24,987 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 23:09:54,677 basehttp "POST /accounts/register/ HTTP/1.1" 201 293
+INFO 2023-08-03 23:10:06,747 basehttp "GET /activate/MTQ/bsdpod-35b963e3081ee049db7849c6e4df0194/ HTTP/1.1" 200 41

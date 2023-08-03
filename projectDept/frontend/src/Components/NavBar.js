@@ -2,6 +2,8 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 
 function NavBar() {
+
+  
   return (
     <>
     <nav className="navbar navbar-expand-lg navbar-info bg-info">
@@ -12,9 +14,11 @@ function NavBar() {
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav">
+        
         <NavLink style={{marginLeft:'60px'}} className="nav-link active" aria-current="page" to="/home">Home</NavLink>
         <NavLink style={{marginLeft:'60px'}} className="nav-link" to="/add">Project</NavLink>
         <NavLink style={{marginLeft:'900px'}} className="nav-link" to="/logout">Logout</NavLink>
+        
         <NavLink style={{marginLeft:'60px'}} className="nav-link" to="/signup">SignUp</NavLink>
         <NavLink style={{marginLeft:'60px'}} className="nav-link" to="/login">Login</NavLink>
         

@@ -18,10 +18,13 @@ from django.contrib import admin
 from django.urls import path,include
 from rest_framework_simplejwt.views import token_obtain_pair,token_refresh
 
+from accounts.views import Activate_account
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/',include('accounts.urls')),
     path('access/',token_obtain_pair),
     path('refresh/',token_refresh),
-    path('department/',include('project.urls'))
+    path('department/',include('project.urls')),
+    path('activate/<str:uidb64>/<str:token>/',Activate_account,name='activate'),
 ]

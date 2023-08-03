@@ -4,7 +4,7 @@ from .models import User
 # Register your models here.
 
 class UserAdmin(admin.ModelAdmin):
-    list_display = ['email','password','username','first_name','last_name']
+    list_display = ['email','password','username','first_name','last_name','is_active']
     
     
 admin.site.register(User,UserAdmin)
