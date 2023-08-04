@@ -217,3 +217,273 @@ KeyError: 'current_site'
 ERROR 2023-08-03 22:54:40,465 basehttp "POST /accounts/register/ HTTP/1.1" 500 115137
 WARNING 2023-08-03 22:58:31,238 log Not Found: /favicon.ico
 WARNING 2023-08-03 22:58:31,239 basehttp "GET /favicon.ico HTTP/1.1" 404 2713
+WARNING 2023-08-04 10:36:30,898 log Not Found: /
+WARNING 2023-08-04 10:36:30,939 basehttp "GET / HTTP/1.1" 404 2662
+WARNING 2023-08-04 10:36:31,061 log Not Found: /favicon.ico
+WARNING 2023-08-04 10:36:31,063 basehttp "GET /favicon.ico HTTP/1.1" 404 2713
+WARNING 2023-08-04 11:26:33,820 log Not Found: /favicon.ico
+WARNING 2023-08-04 11:26:33,822 basehttp "GET /favicon.ico HTTP/1.1" 404 2713
+WARNING 2023-08-04 11:44:47,505 log Bad Request: /accounts/register/
+WARNING 2023-08-04 11:44:47,506 basehttp "POST /accounts/register/ HTTP/1.1" 400 107
+ERROR 2023-08-04 11:46:10,642 log Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 29, in post
+    serializer.save()
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py", line 47, in create
+    send_mail(Subject,message,from_email,to_email)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\mail\__init__.py", line 87, in send_mail
+    return mail.send()
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\mail\message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\mail\backends\smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\mail\backends\smtp.py", line 92, in open
+    self.connection.starttls(context=self.ssl_context)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 790, in starttls
+    self.sock = context.wrap_socket(self.sock,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+ERROR 2023-08-04 11:46:10,672 basehttp "POST /accounts/register/ HTTP/1.1" 500 154603
+ERROR 2023-08-04 11:50:01,407 log Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 29, in post
+    serializer.save()
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py", line 47, in create
+    send_mail(Subject,message,from_email,to_email)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\mail\__init__.py", line 87, in send_mail
+    return mail.send()
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\mail\message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\mail\backends\smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\mail\backends\smtp.py", line 92, in open
+    self.connection.starttls(context=self.ssl_context)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 790, in starttls
+    self.sock = context.wrap_socket(self.sock,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+FileNotFoundError: [Errno 2] No such file or directory
+ERROR 2023-08-04 11:50:01,413 basehttp "POST /accounts/register/ HTTP/1.1" 500 153611
+WARNING 2023-08-04 14:39:46,307 log Method Not Allowed: /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/
+WARNING 2023-08-04 14:39:46,334 basehttp "GET /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/ HTTP/1.1" 405 5830
+ERROR 2023-08-04 14:40:14,344 log Internal Server Error: /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 48, in post
+    if default_token_generator.check_token(user, token):
+UnboundLocalError: local variable 'user' referenced before assignment
+ERROR 2023-08-04 14:40:14,357 basehttp "POST /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/ HTTP/1.1" 500 103587
+WARNING 2023-08-04 14:42:10,764 log Method Not Allowed: /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/
+WARNING 2023-08-04 14:42:10,765 basehttp "GET /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/ HTTP/1.1" 405 5830
+ERROR 2023-08-04 14:44:16,332 log Internal Server Error: /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 48, in post
+    if user is not None and default_token_generator.check_token(user, token):
+UnboundLocalError: local variable 'user' referenced before assignment
+ERROR 2023-08-04 14:44:16,335 basehttp "POST /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/ HTTP/1.1" 500 103629
+WARNING 2023-08-04 15:08:48,058 log Method Not Allowed: /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/
+WARNING 2023-08-04 15:08:48,059 basehttp "GET /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/ HTTP/1.1" 405 5830
+ERROR 2023-08-04 15:08:58,480 log Internal Server Error: /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: Account_activation_API.post() got an unexpected keyword argument 'uidb64'
+ERROR 2023-08-04 15:08:58,483 basehttp "POST /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/ HTTP/1.1" 500 99344
+WARNING 2023-08-04 15:10:00,484 log Method Not Allowed: /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/
+WARNING 2023-08-04 15:10:00,485 basehttp "GET /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/ HTTP/1.1" 405 5830
+ERROR 2023-08-04 15:10:04,838 log Internal Server Error: /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: Account_activation_API.post() got an unexpected keyword argument 'uidb64'
+ERROR 2023-08-04 15:10:04,841 basehttp "POST /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/ HTTP/1.1" 500 99344
+WARNING 2023-08-04 15:10:46,787 log Method Not Allowed: /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/
+WARNING 2023-08-04 15:10:46,788 basehttp "GET /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/ HTTP/1.1" 405 5830
+ERROR 2023-08-04 15:10:49,387 log Internal Server Error: /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: Account_activation_API.post() got an unexpected keyword argument 'uid'
+ERROR 2023-08-04 15:10:49,390 basehttp "POST /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/ HTTP/1.1" 500 99296
+WARNING 2023-08-04 15:13:31,757 log Method Not Allowed: /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/
+WARNING 2023-08-04 15:13:31,759 basehttp "GET /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/ HTTP/1.1" 405 5830
+ERROR 2023-08-04 15:13:40,133 log Internal Server Error: /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: Account_activation_API.post() got an unexpected keyword argument 'uid'
+ERROR 2023-08-04 15:13:40,136 basehttp "POST /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/ HTTP/1.1" 500 99296
+WARNING 2023-08-04 15:17:40,582 log Method Not Allowed: /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/
+WARNING 2023-08-04 15:17:40,583 basehttp "GET /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/ HTTP/1.1" 405 5830
+ERROR 2023-08-04 15:17:43,104 log Internal Server Error: /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: Account_activation_API.post() got an unexpected keyword argument 'uid'
+ERROR 2023-08-04 15:17:43,107 basehttp "POST /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/ HTTP/1.1" 500 99296
+WARNING 2023-08-04 15:19:49,398 log Method Not Allowed: /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/
+WARNING 2023-08-04 15:19:49,399 basehttp "GET /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/ HTTP/1.1" 405 5830
+WARNING 2023-08-04 15:19:51,363 log Bad Request: /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/
+WARNING 2023-08-04 15:19:51,365 basehttp "POST /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/ HTTP/1.1" 400 5811
+WARNING 2023-08-04 15:19:56,932 log Bad Request: /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/
+WARNING 2023-08-04 15:19:56,933 basehttp "POST /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/ HTTP/1.1" 400 5811
+WARNING 2023-08-04 15:21:30,994 log Method Not Allowed: /activate/MjE/bseyne-b461c62815823dec88f88cdf08dc8818/
+WARNING 2023-08-04 15:21:30,995 basehttp "GET /activate/MjE/bseyne-b461c62815823dec88f88cdf08dc8818/ HTTP/1.1" 405 5830
+WARNING 2023-08-04 15:21:33,519 log Bad Request: /activate/MjE/bseyne-b461c62815823dec88f88cdf08dc8818/
+WARNING 2023-08-04 15:21:33,520 basehttp "POST /activate/MjE/bseyne-b461c62815823dec88f88cdf08dc8818/ HTTP/1.1" 400 5811
+WARNING 2023-08-04 15:23:43,570 log Method Not Allowed: /activate/MjI/bseyr3-2fd1e4b7853aed4f18ef199abb92be21/
+WARNING 2023-08-04 15:23:43,571 basehttp "GET /activate/MjI/bseyr3-2fd1e4b7853aed4f18ef199abb92be21/ HTTP/1.1" 405 5830
+WARNING 2023-08-04 16:00:42,086 log Method Not Allowed: /activate/MjM/bsf0gh-2fef4e86ed1a45cb2143e402298bc0f1/
+WARNING 2023-08-04 16:00:42,205 basehttp "GET /activate/MjM/bsf0gh-2fef4e86ed1a45cb2143e402298bc0f1/ HTTP/1.1" 405 5830
+WARNING 2023-08-04 16:26:05,111 log Bad Request: /activate/MjM/bsf0gh-2fef4e86ed1a45cb2143e402298bc0f1/
+WARNING 2023-08-04 16:26:05,112 basehttp "GET /activate/MjM/bsf0gh-2fef4e86ed1a45cb2143e402298bc0f1/ HTTP/1.1" 400 5578
+WARNING 2023-08-04 22:09:06,908 log Unauthorized: /access/
+WARNING 2023-08-04 22:09:06,939 basehttp "POST /access/ HTTP/1.1" 401 63
+WARNING 2023-08-04 22:17:02,614 log Unauthorized: /access/
+WARNING 2023-08-04 22:17:02,615 basehttp "POST /access/ HTTP/1.1" 401 63

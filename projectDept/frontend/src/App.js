@@ -10,31 +10,35 @@ import Delete from './Components/ProjectDept/Delete';
 import Signup from './Components/AUTH/Signup';
 import Login from './Components/AUTH/Login';
 import Logout from './Components/AUTH/Logout';
-import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+
+
 
 function App() {
 
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-  var access = sessionStorage.getItem('access')
+  
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  console.log(isAuthenticated)
   return (
     <>
     <BrowserRouter>
-      <NavBar/>
+      <NavBar isAuthenticated={isAuthenticated} />
+
       <Routes>
         
-        <Route path='/add' element={<Add/>}/>
-        <Route path='/home' element={<Home/>}/>
-        <Route path='/update/:pk/' element={<Update/>}/>
-        <Route path='delete/:pk/' element={<Delete/>}/>
-        <Route path='/logout' element={<Logout/>}/>
-        
-        <Route path='/signup' element={<Signup/>}/>
-        <Route path='/login' element={<Login/>}/>
-        
-        
+          
+          <Route path='/signup' element={<Signup/>}/>
+          <Route path='/login' element={<Login setIsAuthenticated={setIsAuthenticated}/>}/>
+    
+          <Route path='/add' element={<Add/>}/>      
+          <Route path='/home' element={<Home/>}/>
+          <Route path='/update/:pk/' element={<Update/>}/>
+          <Route path='delete/:pk/' element={<Delete/>}/>
+          <Route path='/logout' element={<Logout setIsAuthenticated={setIsAuthenticated}/>}/>
         
       </Routes>
-    
+      
     </BrowserRouter>
     
     </>

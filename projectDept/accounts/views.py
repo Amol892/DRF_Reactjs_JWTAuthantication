@@ -12,7 +12,7 @@ from django.utils.encoding import force_bytes
 from django.contrib.sites.shortcuts import get_current_site
 from django.utils.http import urlsafe_base64_decode,urlsafe_base64_encode
 from django.contrib import messages
-
+from rest_framework.decorators import api_view
 # Create your views here.
 
 class RegisterAPI(APIView):
@@ -27,27 +27,26 @@ class RegisterAPI(APIView):
         if serializer.is_valid():
             
             serializer.save()
+            messages.success(request,"Your account is created")
             return Response(data=serializer.data,status=status.HTTP_201_CREATED)
         return Response(data=serializer.errors,status=status.HTTP_400_BAD_REQUEST)
     
+
+class Account_activation_API(APIView):
     
-def Activate_account(request,uidb64,token):
-    
-    try:
-        uid = force_bytes(urlsafe_base64_decode(uidb64))
-        user = User.objects.get(pk=uid)
-        print(user)
-        print(token)
-    except (TypeError, ValueError, OverflowError, get_user_model().DoesNotExist):
-        print()
-        user = None
-    print(default_token_generator.check_token(user,token))
-    if user is not None and default_token_generator.check_token(user,token):
-        #Activate user account
-        user.is_active = True
-        user.save()
-        messages.success(request,'Congratulation you account is activated!!')
-        return HttpResponse('Congratulation you account is activated!!')
+    def get(self,request,uid,token):
         
-    else:
-        return HttpResponse('Account information is not correct')
+        uid = force_bytes(urlsafe_base64_decode(uid))
+        if uid and token:
+            try:
+                print(uid)
+                user = User.objects.get(pk=uid)
+            except (TypeError, ValueError, OverflowError, User.DoesNotExist):
+                return Response({'message': 'Invalid activation link'}, status=status.HTTP_400_BAD_REQUEST)
+            
+        if user is not None and default_token_generator.check_token(user, token):
+                user.is_active = True
+                user.save()
+                return redirect('activation_success')
+            
+        return Response({'message': 'Invalid activation token'}, status=status.HTTP_400_BAD_REQUEST)

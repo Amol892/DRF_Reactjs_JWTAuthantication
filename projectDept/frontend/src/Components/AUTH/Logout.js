@@ -1,12 +1,15 @@
 import React from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
 
-function Logout() {
+function Logout( {setIsAuthenticated} ) {
 
     const navigate = useNavigate()
 
-    function logoutPage(){
+    async function logoutPage(){
             sessionStorage.removeItem('access')
+
+            setIsAuthenticated(false)
+
             navigate('/login')
     }
 

@@ -1577,3 +1577,1248 @@ INFO 2023-08-03 23:09:24,969 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 1
 INFO 2023-08-03 23:09:24,987 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
 INFO 2023-08-03 23:09:54,677 basehttp "POST /accounts/register/ HTTP/1.1" 201 293
 INFO 2023-08-03 23:10:06,747 basehttp "GET /activate/MTQ/bsdpod-35b963e3081ee049db7849c6e4df0194/ HTTP/1.1" 200 41
+INFO 2023-08-03 23:28:42,806 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-03 23:28:42,821 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2023-08-03 23:28:42,826 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-03 23:34:38,119 views All Project record fetched
+INFO 2023-08-03 23:34:38,123 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:34:38,126 views All Project record fetched
+INFO 2023-08-03 23:34:38,130 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:51:40,389 views All Project record fetched
+INFO 2023-08-03 23:51:40,392 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:51:40,395 views All Project record fetched
+INFO 2023-08-03 23:51:40,398 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:52:32,111 views All Project record fetched
+INFO 2023-08-03 23:52:32,115 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:52:32,125 views All Project record fetched
+INFO 2023-08-03 23:52:32,129 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:52:48,414 views All Project record fetched
+INFO 2023-08-03 23:52:48,417 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:52:48,420 views All Project record fetched
+INFO 2023-08-03 23:52:48,423 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:52:49,086 views All Project record fetched
+INFO 2023-08-03 23:52:49,090 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:52:49,092 views All Project record fetched
+INFO 2023-08-03 23:52:49,095 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:53:11,405 views All Project record fetched
+INFO 2023-08-03 23:53:11,408 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-03 23:53:11,411 views All Project record fetched
+INFO 2023-08-03 23:53:11,416 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 00:10:37,802 views All Project record fetched
+INFO 2023-08-04 00:10:37,805 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 00:10:37,807 views All Project record fetched
+INFO 2023-08-04 00:10:37,810 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 00:10:58,981 views All Project record fetched
+INFO 2023-08-04 00:10:58,985 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 00:10:58,988 views All Project record fetched
+INFO 2023-08-04 00:10:58,991 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 00:11:10,797 views All Project record fetched
+INFO 2023-08-04 00:11:10,801 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 00:11:10,805 views All Project record fetched
+INFO 2023-08-04 00:11:10,809 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 00:11:18,037 views All Project record fetched
+INFO 2023-08-04 00:11:18,042 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 00:11:18,047 views All Project record fetched
+INFO 2023-08-04 00:11:18,053 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 09:58:38,846 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 10:00:57,383 views All Project record fetched
+INFO 2023-08-04 10:00:57,387 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:00:57,433 views All Project record fetched
+INFO 2023-08-04 10:00:57,437 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:01:01,105 views All Project record fetched
+INFO 2023-08-04 10:01:01,110 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:01:01,117 views All Project record fetched
+INFO 2023-08-04 10:01:01,122 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:01:50,951 views All Project record fetched
+INFO 2023-08-04 10:01:50,954 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:01:50,956 views All Project record fetched
+INFO 2023-08-04 10:01:50,960 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:07:28,068 views All Project record fetched
+INFO 2023-08-04 10:07:28,071 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:07:28,073 views All Project record fetched
+INFO 2023-08-04 10:07:28,076 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:14:35,159 views All Project record fetched
+INFO 2023-08-04 10:14:35,162 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:14:35,164 views All Project record fetched
+INFO 2023-08-04 10:14:35,167 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:15:06,534 basehttp "OPTIONS /access/ HTTP/1.1" 200 0
+INFO 2023-08-04 10:15:06,952 basehttp "POST /access/ HTTP/1.1" 200 483
+INFO 2023-08-04 10:15:06,972 views All Project record fetched
+INFO 2023-08-04 10:15:06,977 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:15:06,984 views All Project record fetched
+INFO 2023-08-04 10:15:06,989 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:15:33,494 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-04 10:15:33,539 views All Project record fetched
+INFO 2023-08-04 10:15:33,543 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:15:33,549 views All Project record fetched
+INFO 2023-08-04 10:15:33,553 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:16:40,952 views All Project record fetched
+INFO 2023-08-04 10:16:40,956 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:16:40,961 views All Project record fetched
+INFO 2023-08-04 10:16:40,964 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:16:45,962 views All Project record fetched
+INFO 2023-08-04 10:16:45,968 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:16:45,977 views All Project record fetched
+INFO 2023-08-04 10:16:45,981 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:22:25,062 views All Project record fetched
+INFO 2023-08-04 10:22:25,065 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:22:25,067 views All Project record fetched
+INFO 2023-08-04 10:22:25,071 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:22:28,775 views All Project record fetched
+INFO 2023-08-04 10:22:28,781 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:22:28,784 views All Project record fetched
+INFO 2023-08-04 10:22:28,789 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:23:06,260 views All Project record fetched
+INFO 2023-08-04 10:23:06,266 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:23:06,269 views All Project record fetched
+INFO 2023-08-04 10:23:06,275 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:23:27,174 views All Project record fetched
+INFO 2023-08-04 10:23:27,177 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:23:27,180 views All Project record fetched
+INFO 2023-08-04 10:23:27,184 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:26:43,309 views All Project record fetched
+INFO 2023-08-04 10:26:43,312 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:26:43,316 views All Project record fetched
+INFO 2023-08-04 10:26:43,320 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:27:02,806 views All Project record fetched
+INFO 2023-08-04 10:27:02,810 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:27:02,814 views All Project record fetched
+INFO 2023-08-04 10:27:02,818 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:27:29,105 views All Project record fetched
+INFO 2023-08-04 10:27:29,108 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:27:29,111 views All Project record fetched
+INFO 2023-08-04 10:27:29,114 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:27:46,919 views All Project record fetched
+INFO 2023-08-04 10:27:46,923 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:27:46,927 views All Project record fetched
+INFO 2023-08-04 10:27:46,930 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:27:57,911 views All Project record fetched
+INFO 2023-08-04 10:27:57,916 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:27:57,921 views All Project record fetched
+INFO 2023-08-04 10:27:57,926 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:28:04,414 views All Project record fetched
+INFO 2023-08-04 10:28:04,419 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:28:04,431 views All Project record fetched
+INFO 2023-08-04 10:28:04,434 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:28:26,694 views All Project record fetched
+INFO 2023-08-04 10:28:26,696 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:28:26,698 views All Project record fetched
+INFO 2023-08-04 10:28:26,704 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:29:48,321 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-04 10:29:48,411 views All Project record fetched
+INFO 2023-08-04 10:29:48,415 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:29:48,418 views All Project record fetched
+INFO 2023-08-04 10:29:48,422 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:32:23,056 views All Project record fetched
+INFO 2023-08-04 10:32:23,059 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:32:23,062 views All Project record fetched
+INFO 2023-08-04 10:32:23,066 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:33:28,708 views All Project record fetched
+INFO 2023-08-04 10:33:28,713 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:33:28,717 views All Project record fetched
+INFO 2023-08-04 10:33:28,720 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+WARNING 2023-08-04 10:36:30,898 log Not Found: /
+WARNING 2023-08-04 10:36:30,939 basehttp "GET / HTTP/1.1" 404 2662
+WARNING 2023-08-04 10:36:31,061 log Not Found: /favicon.ico
+WARNING 2023-08-04 10:36:31,063 basehttp "GET /favicon.ico HTTP/1.1" 404 2713
+INFO 2023-08-04 10:36:36,079 basehttp "GET /admin/ HTTP/1.1" 200 9081
+INFO 2023-08-04 10:36:36,185 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-08-04 10:36:36,212 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-08-04 10:36:36,212 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2023-08-04 10:36:36,213 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-08-04 10:36:36,222 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-08-04 10:36:36,257 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-08-04 10:36:36,265 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-08-04 10:36:36,286 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2023-08-04 10:36:36,295 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-08-04 10:36:36,388 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2023-08-04 10:36:40,619 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-04 10:36:40,671 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-08-04 10:36:40,674 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-08-04 10:36:40,674 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-08-04 10:36:40,674 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-08-04 10:36:40,686 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-08-04 10:36:40,686 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-08-04 10:36:40,719 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-08-04 10:36:40,722 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-08-04 10:36:40,722 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-08-04 10:36:40,752 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 10:36:40,894 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-08-04 10:36:40,923 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2023-08-04 10:36:40,923 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2023-08-04 10:43:44,859 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-04 10:43:45,006 views All Project record fetched
+INFO 2023-08-04 10:43:45,011 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:43:45,014 views All Project record fetched
+INFO 2023-08-04 10:43:45,019 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:44:03,374 views All Project record fetched
+INFO 2023-08-04 10:44:03,378 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:44:03,380 views All Project record fetched
+INFO 2023-08-04 10:44:03,385 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:44:08,558 views All Project record fetched
+INFO 2023-08-04 10:44:08,561 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:44:08,563 views All Project record fetched
+INFO 2023-08-04 10:44:08,568 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:45:50,875 views All Project record fetched
+INFO 2023-08-04 10:45:50,880 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:45:50,886 views All Project record fetched
+INFO 2023-08-04 10:45:50,890 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:46:06,057 views All Project record fetched
+INFO 2023-08-04 10:46:06,061 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:46:06,064 views All Project record fetched
+INFO 2023-08-04 10:46:06,068 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:46:37,454 views All Project record fetched
+INFO 2023-08-04 10:46:37,457 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:46:37,460 views All Project record fetched
+INFO 2023-08-04 10:46:37,464 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:47:11,863 views All Project record fetched
+INFO 2023-08-04 10:47:11,868 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:47:11,872 views All Project record fetched
+INFO 2023-08-04 10:47:11,886 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:47:21,180 views All Project record fetched
+INFO 2023-08-04 10:47:21,188 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:47:21,192 views All Project record fetched
+INFO 2023-08-04 10:47:21,199 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:47:49,054 views All Project record fetched
+INFO 2023-08-04 10:47:49,060 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:47:49,070 views All Project record fetched
+INFO 2023-08-04 10:47:49,075 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:49:27,417 views All Project record fetched
+INFO 2023-08-04 10:49:27,420 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:49:27,423 views All Project record fetched
+INFO 2023-08-04 10:49:27,427 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:49:50,307 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-04 10:49:50,360 views All Project record fetched
+INFO 2023-08-04 10:49:50,363 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:49:50,367 views All Project record fetched
+INFO 2023-08-04 10:49:50,371 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:50:02,919 views All Project record fetched
+INFO 2023-08-04 10:50:02,924 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:50:02,930 views All Project record fetched
+INFO 2023-08-04 10:50:02,935 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:50:08,468 views All Project record fetched
+INFO 2023-08-04 10:50:08,471 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:50:08,473 views All Project record fetched
+INFO 2023-08-04 10:50:08,479 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:52:20,937 views All Project record fetched
+INFO 2023-08-04 10:52:20,940 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:52:20,942 views All Project record fetched
+INFO 2023-08-04 10:52:20,948 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:53:18,789 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-04 10:53:18,809 views All Project record fetched
+INFO 2023-08-04 10:53:18,813 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:53:18,821 views All Project record fetched
+INFO 2023-08-04 10:53:18,826 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:59:42,803 views All Project record fetched
+INFO 2023-08-04 10:59:42,806 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 10:59:42,809 views All Project record fetched
+INFO 2023-08-04 10:59:42,813 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:14:16,953 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-04 11:14:17,057 views All Project record fetched
+INFO 2023-08-04 11:14:17,061 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:14:17,063 views All Project record fetched
+INFO 2023-08-04 11:14:17,068 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:14:49,718 views All Project record fetched
+INFO 2023-08-04 11:14:49,723 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:14:49,725 views All Project record fetched
+INFO 2023-08-04 11:14:49,729 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:14:55,775 views All Project record fetched
+INFO 2023-08-04 11:14:55,777 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:14:55,803 views All Project record fetched
+INFO 2023-08-04 11:14:55,806 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:15:22,693 views All Project record fetched
+INFO 2023-08-04 11:15:22,699 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:15:22,702 views All Project record fetched
+INFO 2023-08-04 11:15:22,705 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:15:57,065 views All Project record fetched
+INFO 2023-08-04 11:15:57,069 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:15:57,072 views All Project record fetched
+INFO 2023-08-04 11:15:57,078 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:16:53,840 views All Project record fetched
+INFO 2023-08-04 11:16:53,843 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:16:53,846 views All Project record fetched
+INFO 2023-08-04 11:16:53,849 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:17:41,499 views All Project record fetched
+INFO 2023-08-04 11:17:41,503 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:17:41,505 views All Project record fetched
+INFO 2023-08-04 11:17:41,510 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:18:35,548 views All Project record fetched
+INFO 2023-08-04 11:18:35,552 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:18:35,557 views All Project record fetched
+INFO 2023-08-04 11:18:35,563 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:18:42,566 views All Project record fetched
+INFO 2023-08-04 11:18:42,569 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:18:42,575 views All Project record fetched
+INFO 2023-08-04 11:18:42,578 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:22:23,917 views All Project record fetched
+INFO 2023-08-04 11:22:23,922 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:22:23,924 views All Project record fetched
+INFO 2023-08-04 11:22:23,928 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:22:32,370 views All Project record fetched
+INFO 2023-08-04 11:22:32,376 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:22:32,381 views All Project record fetched
+INFO 2023-08-04 11:22:32,386 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:23:32,311 views All Project record fetched
+INFO 2023-08-04 11:23:32,315 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:23:32,317 views All Project record fetched
+INFO 2023-08-04 11:23:32,323 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:25:12,139 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-04 11:25:12,209 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 11:25:19,990 basehttp "POST /admin/accounts/user/ HTTP/1.1" 200 7805
+INFO 2023-08-04 11:25:20,187 basehttp "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+INFO 2023-08-04 11:25:21,924 basehttp "POST /admin/accounts/user/ HTTP/1.1" 302 0
+INFO 2023-08-04 11:25:21,940 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10066
+INFO 2023-08-04 11:25:21,958 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 11:26:03,932 basehttp "OPTIONS /accounts/register/ HTTP/1.1" 200 0
+INFO 2023-08-04 11:26:09,548 basehttp "POST /accounts/register/ HTTP/1.1" 201 293
+INFO 2023-08-04 11:26:26,502 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-04 11:26:26,602 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 11:26:26,650 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2023-08-04 11:26:32,601 basehttp "GET /activate/MTU/bsenrg-c2917aa818a25746d5c693885e4db304/ HTTP/1.1" 200 41
+WARNING 2023-08-04 11:26:33,820 log Not Found: /favicon.ico
+WARNING 2023-08-04 11:26:33,822 basehttp "GET /favicon.ico HTTP/1.1" 404 2713
+INFO 2023-08-04 11:27:05,837 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-04 11:27:05,861 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 11:27:39,109 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-04 11:27:39,193 views All Project record fetched
+INFO 2023-08-04 11:27:39,196 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:27:39,198 views All Project record fetched
+INFO 2023-08-04 11:27:39,201 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 11:32:28,063 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 11:32:31,432 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 11:32:33,441 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 11:32:34,156 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 11:32:37,708 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 11:32:38,909 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 11:32:41,728 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 11:32:42,410 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 11:32:54,581 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 11:32:55,487 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 11:33:00,119 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 11:33:01,160 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 11:35:38,657 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 11:35:39,580 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 11:35:41,322 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 11:35:42,226 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 11:35:43,739 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 11:35:44,485 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 11:37:51,558 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 11:37:52,215 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 11:43:08,715 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\project\urls.py changed, reloading.
+INFO 2023-08-04 11:43:09,382 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 11:43:10,830 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\project\urls.py changed, reloading.
+INFO 2023-08-04 11:43:11,433 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 11:43:29,661 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\project\urls.py changed, reloading.
+INFO 2023-08-04 11:43:30,326 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 11:43:38,358 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 11:43:39,086 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 11:44:09,094 basehttp "POST /admin/accounts/user/ HTTP/1.1" 200 7805
+INFO 2023-08-04 11:44:10,651 basehttp "POST /admin/accounts/user/ HTTP/1.1" 302 0
+INFO 2023-08-04 11:44:10,694 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10066
+INFO 2023-08-04 11:44:10,714 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2023-08-04 11:44:47,505 log Bad Request: /accounts/register/
+WARNING 2023-08-04 11:44:47,506 basehttp "POST /accounts/register/ HTTP/1.1" 400 107
+INFO 2023-08-04 11:45:27,047 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-04 11:45:27,068 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 11:45:37,115 basehttp "POST /admin/accounts/user/ HTTP/1.1" 200 7805
+INFO 2023-08-04 11:45:39,184 basehttp "POST /admin/accounts/user/ HTTP/1.1" 302 0
+INFO 2023-08-04 11:45:39,198 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10066
+INFO 2023-08-04 11:45:39,217 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2023-08-04 11:46:10,642 log Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 29, in post
+    serializer.save()
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py", line 47, in create
+    send_mail(Subject,message,from_email,to_email)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\mail\__init__.py", line 87, in send_mail
+    return mail.send()
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\mail\message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\mail\backends\smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\mail\backends\smtp.py", line 92, in open
+    self.connection.starttls(context=self.ssl_context)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 790, in starttls
+    self.sock = context.wrap_socket(self.sock,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+ERROR 2023-08-04 11:46:10,672 basehttp "POST /accounts/register/ HTTP/1.1" 500 154603
+INFO 2023-08-04 11:48:50,413 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 9932
+INFO 2023-08-04 11:48:50,430 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2023-08-04 11:50:01,407 log Internal Server Error: /accounts/register/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 29, in post
+    serializer.save()
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py", line 47, in create
+    send_mail(Subject,message,from_email,to_email)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\mail\__init__.py", line 87, in send_mail
+    return mail.send()
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\mail\message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\mail\backends\smtp.py", line 127, in send_messages
+    new_conn_created = self.open()
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\mail\backends\smtp.py", line 92, in open
+    self.connection.starttls(context=self.ssl_context)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 790, in starttls
+    self.sock = context.wrap_socket(self.sock,
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+FileNotFoundError: [Errno 2] No such file or directory
+ERROR 2023-08-04 11:50:01,413 basehttp "POST /accounts/register/ HTTP/1.1" 500 153611
+INFO 2023-08-04 11:51:27,735 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-04 11:51:27,756 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 11:51:34,625 basehttp "POST /admin/accounts/user/ HTTP/1.1" 200 7805
+INFO 2023-08-04 11:51:35,972 basehttp "POST /admin/accounts/user/ HTTP/1.1" 302 0
+INFO 2023-08-04 11:51:35,987 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10066
+INFO 2023-08-04 11:51:36,008 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 11:53:50,823 basehttp "POST /accounts/register/ HTTP/1.1" 201 293
+INFO 2023-08-04 11:54:53,482 basehttp "GET /activate/MTg/bseozl-d952df7f17ebf50e3307991c6aa24d22/ HTTP/1.1" 302 0
+INFO 2023-08-04 11:54:53,486 views All Project record fetched
+INFO 2023-08-04 11:54:53,556 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 7123
+INFO 2023-08-04 11:54:53,780 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2023-08-04 11:54:53,817 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2023-08-04 11:54:53,819 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2023-08-04 11:54:53,823 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2023-08-04 11:54:53,826 basehttp "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2023-08-04 11:54:53,871 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2023-08-04 11:54:53,896 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2023-08-04 11:54:53,933 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2023-08-04 11:54:53,934 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2023-08-04 11:54:53,934 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2023-08-04 11:54:53,953 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2023-08-04 11:57:20,705 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 11:57:21,520 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 11:58:31,130 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-04 11:58:31,148 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 12:26:34,050 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:26:37,595 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:26:40,137 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:26:41,179 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:26:43,533 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:26:44,406 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:26:46,703 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:26:47,346 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:26:53,916 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:26:54,594 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:26:55,846 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:26:56,797 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:26:59,566 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:27:00,306 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:27:03,829 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:27:04,402 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:27:05,736 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:27:06,316 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:27:09,803 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:27:10,825 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:27:15,498 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:27:16,111 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:27:18,582 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:27:19,128 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:27:22,494 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:27:23,077 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:27:26,482 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:27:27,132 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:27:29,438 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:27:30,129 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:27:32,465 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:27:33,058 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:27:36,433 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:27:37,096 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:41:41,689 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:41:42,860 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:41:46,403 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:41:47,006 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:41:49,299 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:41:49,886 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:41:53,317 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:41:54,228 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:41:58,665 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:41:59,380 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:42:49,782 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:42:50,528 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:43:00,490 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:43:01,127 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:43:03,529 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:43:04,082 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:43:08,812 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:43:09,555 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:44:08,246 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:44:09,027 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:44:10,403 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:44:10,979 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:44:14,366 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:44:15,255 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:44:17,619 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:44:18,150 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:44:22,589 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:44:23,273 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:44:25,676 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:44:26,626 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:44:27,914 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:44:28,561 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:44:41,444 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:44:42,113 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:44:43,416 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:44:44,207 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:44:45,493 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:44:46,226 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:44:47,455 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:44:47,989 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:44:52,514 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:44:53,139 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:44:57,558 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:44:58,273 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:44:59,507 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:45:00,123 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:45:02,490 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:45:03,261 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:45:07,762 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:45:08,372 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:45:28,405 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:45:29,038 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:45:34,553 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:45:35,199 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:45:38,574 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:45:39,098 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:45:44,518 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:45:45,157 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:45:58,946 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:45:59,702 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:46:00,985 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:46:01,515 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:46:16,378 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:46:17,059 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:46:30,997 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:46:31,647 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:46:38,143 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:46:38,837 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:46:56,766 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:46:57,415 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:47:03,942 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:47:04,546 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:47:32,024 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:47:32,674 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:47:36,020 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:47:36,578 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:47:49,335 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:47:50,252 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:47:51,766 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:47:52,581 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:48:21,017 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 12:48:21,642 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:48:56,309 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 12:48:57,066 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:48:59,439 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 12:49:00,077 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:49:01,349 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 12:49:01,976 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:49:07,448 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 12:49:08,183 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:49:09,462 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 12:49:10,078 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:49:13,469 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 12:49:14,103 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:49:20,634 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 12:49:21,291 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:49:24,774 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 12:49:25,448 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 12:49:27,846 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 12:49:28,633 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 14:23:32,705 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 14:23:33,852 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 14:24:02,235 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 14:24:02,839 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 14:26:05,807 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 14:26:06,453 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 14:26:12,758 views All Project record fetched
+INFO 2023-08-04 14:26:12,762 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 14:26:12,765 views All Project record fetched
+INFO 2023-08-04 14:26:12,770 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 14:31:13,437 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-04 14:31:13,461 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-08-04 14:31:13,461 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-08-04 14:31:13,462 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-08-04 14:31:13,509 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-08-04 14:31:13,509 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-08-04 14:31:13,509 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-08-04 14:31:13,510 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-08-04 14:31:13,511 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-08-04 14:31:13,537 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-08-04 14:31:13,539 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-08-04 14:31:13,540 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-08-04 14:31:13,540 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-08-04 14:31:13,542 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-08-04 14:31:13,545 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 14:31:13,636 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-08-04 14:31:13,655 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-08-04 14:31:13,670 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2023-08-04 14:31:13,675 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2023-08-04 14:31:13,690 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-08-04 14:31:13,718 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-08-04 14:35:41,044 basehttp "POST /admin/accounts/user/ HTTP/1.1" 200 7805
+INFO 2023-08-04 14:35:41,105 basehttp "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+INFO 2023-08-04 14:35:42,822 basehttp "POST /admin/accounts/user/ HTTP/1.1" 302 0
+INFO 2023-08-04 14:35:42,835 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10066
+INFO 2023-08-04 14:35:42,858 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 14:36:12,834 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 14:36:13,551 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 14:36:54,658 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 14:36:55,266 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 14:36:59,007 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 14:36:59,552 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 14:37:05,196 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 14:37:05,804 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 14:39:22,047 basehttp "OPTIONS /accounts/register/ HTTP/1.1" 200 0
+INFO 2023-08-04 14:39:27,482 basehttp "POST /accounts/register/ HTTP/1.1" 201 293
+WARNING 2023-08-04 14:39:46,307 log Method Not Allowed: /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/
+WARNING 2023-08-04 14:39:46,334 basehttp "GET /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/ HTTP/1.1" 405 5830
+INFO 2023-08-04 14:40:09,182 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-04 14:40:09,200 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2023-08-04 14:40:09,208 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2023-08-04 14:40:14,344 log Internal Server Error: /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 48, in post
+    if default_token_generator.check_token(user, token):
+UnboundLocalError: local variable 'user' referenced before assignment
+ERROR 2023-08-04 14:40:14,357 basehttp "POST /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/ HTTP/1.1" 500 103587
+WARNING 2023-08-04 14:42:10,764 log Method Not Allowed: /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/
+WARNING 2023-08-04 14:42:10,765 basehttp "GET /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/ HTTP/1.1" 405 5830
+INFO 2023-08-04 14:44:03,150 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 14:44:04,318 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 14:44:07,907 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 14:44:08,461 autoreload Watching for file changes with StatReloader
+ERROR 2023-08-04 14:44:16,332 log Internal Server Error: /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 48, in post
+    if user is not None and default_token_generator.check_token(user, token):
+UnboundLocalError: local variable 'user' referenced before assignment
+ERROR 2023-08-04 14:44:16,335 basehttp "POST /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/ HTTP/1.1" 500 103629
+INFO 2023-08-04 14:44:22,611 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-04 14:44:22,629 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 15:06:43,685 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:06:48,041 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:06:50,703 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:06:51,424 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:06:56,040 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:06:57,168 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:07:03,779 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:07:04,429 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:08:04,520 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:08:05,129 autoreload Watching for file changes with StatReloader
+WARNING 2023-08-04 15:08:48,058 log Method Not Allowed: /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/
+WARNING 2023-08-04 15:08:48,059 basehttp "GET /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/ HTTP/1.1" 405 5830
+ERROR 2023-08-04 15:08:58,480 log Internal Server Error: /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: Account_activation_API.post() got an unexpected keyword argument 'uidb64'
+ERROR 2023-08-04 15:08:58,483 basehttp "POST /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/ HTTP/1.1" 500 99344
+INFO 2023-08-04 15:09:56,319 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:09:57,071 autoreload Watching for file changes with StatReloader
+WARNING 2023-08-04 15:10:00,484 log Method Not Allowed: /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/
+WARNING 2023-08-04 15:10:00,485 basehttp "GET /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/ HTTP/1.1" 405 5830
+ERROR 2023-08-04 15:10:04,838 log Internal Server Error: /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: Account_activation_API.post() got an unexpected keyword argument 'uidb64'
+ERROR 2023-08-04 15:10:04,841 basehttp "POST /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/ HTTP/1.1" 500 99344
+INFO 2023-08-04 15:10:14,705 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:10:15,808 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:10:17,376 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:10:18,004 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:10:35,089 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 15:10:35,719 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:10:37,147 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 15:10:37,837 autoreload Watching for file changes with StatReloader
+WARNING 2023-08-04 15:10:46,787 log Method Not Allowed: /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/
+WARNING 2023-08-04 15:10:46,788 basehttp "GET /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/ HTTP/1.1" 405 5830
+ERROR 2023-08-04 15:10:49,387 log Internal Server Error: /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: Account_activation_API.post() got an unexpected keyword argument 'uid'
+ERROR 2023-08-04 15:10:49,390 basehttp "POST /activate/MTk/bsewpm-13ceaae1356fd1a414aea5bebd32e2d8/ HTTP/1.1" 500 99296
+INFO 2023-08-04 15:12:24,739 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\Serializers.py changed, reloading.
+INFO 2023-08-04 15:12:25,345 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:12:33,717 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-04 15:12:33,794 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 15:12:39,892 basehttp "POST /admin/accounts/user/ HTTP/1.1" 200 7805
+INFO 2023-08-04 15:12:41,579 basehttp "POST /admin/accounts/user/ HTTP/1.1" 302 0
+INFO 2023-08-04 15:12:41,596 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10066
+INFO 2023-08-04 15:12:41,612 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 15:13:07,971 basehttp "POST /accounts/register/ HTTP/1.1" 201 293
+INFO 2023-08-04 15:13:13,057 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-04 15:13:13,076 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2023-08-04 15:13:31,757 log Method Not Allowed: /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/
+WARNING 2023-08-04 15:13:31,759 basehttp "GET /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/ HTTP/1.1" 405 5830
+ERROR 2023-08-04 15:13:40,133 log Internal Server Error: /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: Account_activation_API.post() got an unexpected keyword argument 'uid'
+ERROR 2023-08-04 15:13:40,136 basehttp "POST /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/ HTTP/1.1" 500 99296
+INFO 2023-08-04 15:14:54,308 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:14:55,357 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:15:03,243 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:15:04,016 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:16:42,104 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:16:42,734 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:17:00,961 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:17:01,609 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:17:04,167 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:17:04,740 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:17:06,242 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:17:06,776 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:17:08,114 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:17:08,862 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:17:11,211 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:17:11,774 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:17:14,112 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:17:14,702 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:17:22,461 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:17:23,076 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:17:25,675 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:17:26,236 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:17:29,901 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:17:30,676 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:17:33,179 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:17:33,729 autoreload Watching for file changes with StatReloader
+WARNING 2023-08-04 15:17:40,582 log Method Not Allowed: /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/
+WARNING 2023-08-04 15:17:40,583 basehttp "GET /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/ HTTP/1.1" 405 5830
+ERROR 2023-08-04 15:17:43,104 log Internal Server Error: /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: Account_activation_API.post() got an unexpected keyword argument 'uid'
+ERROR 2023-08-04 15:17:43,107 basehttp "POST /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/ HTTP/1.1" 500 99296
+INFO 2023-08-04 15:19:17,899 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:19:18,833 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:19:22,497 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:19:23,057 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:19:29,768 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:19:30,361 autoreload Watching for file changes with StatReloader
+WARNING 2023-08-04 15:19:49,398 log Method Not Allowed: /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/
+WARNING 2023-08-04 15:19:49,399 basehttp "GET /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/ HTTP/1.1" 405 5830
+WARNING 2023-08-04 15:19:51,363 log Bad Request: /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/
+WARNING 2023-08-04 15:19:51,365 basehttp "POST /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/ HTTP/1.1" 400 5811
+WARNING 2023-08-04 15:19:56,932 log Bad Request: /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/
+WARNING 2023-08-04 15:19:56,933 basehttp "POST /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/ HTTP/1.1" 400 5811
+INFO 2023-08-04 15:20:22,013 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-04 15:20:22,033 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 15:20:27,191 basehttp "POST /admin/accounts/user/ HTTP/1.1" 200 7805
+INFO 2023-08-04 15:20:28,756 basehttp "POST /admin/accounts/user/ HTTP/1.1" 302 0
+INFO 2023-08-04 15:20:28,772 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10066
+INFO 2023-08-04 15:20:28,791 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 15:21:18,797 basehttp "POST /accounts/register/ HTTP/1.1" 201 293
+WARNING 2023-08-04 15:21:30,994 log Method Not Allowed: /activate/MjE/bseyne-b461c62815823dec88f88cdf08dc8818/
+WARNING 2023-08-04 15:21:30,995 basehttp "GET /activate/MjE/bseyne-b461c62815823dec88f88cdf08dc8818/ HTTP/1.1" 405 5830
+WARNING 2023-08-04 15:21:33,519 log Bad Request: /activate/MjE/bseyne-b461c62815823dec88f88cdf08dc8818/
+WARNING 2023-08-04 15:21:33,520 basehttp "POST /activate/MjE/bseyne-b461c62815823dec88f88cdf08dc8818/ HTTP/1.1" 400 5811
+INFO 2023-08-04 15:22:26,768 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:22:27,879 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:22:30,425 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 15:22:30,958 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:22:40,071 basehttp "POST /activate/MjE/bseyne-b461c62815823dec88f88cdf08dc8818/ HTTP/1.1" 200 5809
+INFO 2023-08-04 15:22:53,676 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-04 15:22:53,733 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 15:23:03,546 basehttp "POST /admin/accounts/user/ HTTP/1.1" 200 7805
+INFO 2023-08-04 15:23:04,998 basehttp "POST /admin/accounts/user/ HTTP/1.1" 302 0
+INFO 2023-08-04 15:23:05,015 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10066
+INFO 2023-08-04 15:23:05,039 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 15:23:31,290 basehttp "POST /accounts/register/ HTTP/1.1" 201 293
+WARNING 2023-08-04 15:23:43,570 log Method Not Allowed: /activate/MjI/bseyr3-2fd1e4b7853aed4f18ef199abb92be21/
+WARNING 2023-08-04 15:23:43,571 basehttp "GET /activate/MjI/bseyr3-2fd1e4b7853aed4f18ef199abb92be21/ HTTP/1.1" 405 5830
+INFO 2023-08-04 15:23:46,268 basehttp "POST /activate/MjI/bseyr3-2fd1e4b7853aed4f18ef199abb92be21/ HTTP/1.1" 200 5809
+INFO 2023-08-04 15:40:14,325 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 15:44:02,745 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-04 15:44:02,763 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 15:44:08,988 basehttp "POST /admin/accounts/user/ HTTP/1.1" 200 7805
+INFO 2023-08-04 15:44:10,500 basehttp "POST /admin/accounts/user/ HTTP/1.1" 302 0
+INFO 2023-08-04 15:44:10,514 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10066
+INFO 2023-08-04 15:44:10,532 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 15:59:58,239 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 9932
+INFO 2023-08-04 15:59:58,295 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 16:00:21,864 basehttp "POST /accounts/register/ HTTP/1.1" 201 293
+INFO 2023-08-04 16:00:29,536 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-04 16:00:29,556 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2023-08-04 16:00:42,086 log Method Not Allowed: /activate/MjM/bsf0gh-2fef4e86ed1a45cb2143e402298bc0f1/
+WARNING 2023-08-04 16:00:42,205 basehttp "GET /activate/MjM/bsf0gh-2fef4e86ed1a45cb2143e402298bc0f1/ HTTP/1.1" 405 5830
+INFO 2023-08-04 16:14:29,185 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 16:14:35,176 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 16:14:39,796 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 16:14:41,007 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 16:15:09,486 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 16:15:10,995 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 16:15:13,309 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 16:15:13,854 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 16:15:15,115 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 16:15:15,657 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 16:15:16,944 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 16:15:17,638 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 16:15:21,098 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 16:15:22,182 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 16:15:24,724 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 16:15:25,467 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 16:15:33,466 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 16:15:34,092 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 16:15:50,129 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 16:15:50,996 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 16:15:57,547 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 16:15:58,235 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 16:16:02,951 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 16:16:03,617 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 16:16:05,082 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 16:16:05,641 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 16:18:31,180 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 16:18:32,302 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 16:19:02,170 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 16:19:02,755 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 16:19:04,259 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 16:19:04,828 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 16:19:32,389 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 16:19:33,057 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 16:19:40,056 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
+INFO 2023-08-04 16:19:40,799 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 16:20:41,934 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 16:20:42,559 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 16:20:43,964 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 16:20:44,486 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 16:20:52,246 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 16:20:53,281 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 16:21:07,177 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\projectDept\urls.py changed, reloading.
+INFO 2023-08-04 16:21:08,458 autoreload Watching for file changes with StatReloader
+INFO 2023-08-04 16:21:18,923 basehttp "GET /activate/MjM/bsf0gh-2fef4e86ed1a45cb2143e402298bc0f1/ HTTP/1.1" 302 0
+INFO 2023-08-04 16:21:18,958 basehttp "GET /active_success/ HTTP/1.1" 302 0
+INFO 2023-08-04 16:22:51,758 views All Project record fetched
+INFO 2023-08-04 16:22:51,763 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 16:22:51,779 views All Project record fetched
+INFO 2023-08-04 16:22:51,784 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 16:23:27,712 views All Project record fetched
+INFO 2023-08-04 16:23:27,714 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 16:23:27,716 views All Project record fetched
+INFO 2023-08-04 16:23:27,720 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 16:23:35,910 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-04 16:23:35,975 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 16:23:41,404 basehttp "POST /admin/accounts/user/ HTTP/1.1" 200 7805
+INFO 2023-08-04 16:23:43,167 basehttp "POST /admin/accounts/user/ HTTP/1.1" 302 0
+INFO 2023-08-04 16:23:43,180 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10066
+INFO 2023-08-04 16:23:43,195 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 16:24:08,769 basehttp "POST /accounts/register/ HTTP/1.1" 201 293
+INFO 2023-08-04 16:24:14,283 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-04 16:24:14,301 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2023-08-04 16:26:05,111 log Bad Request: /activate/MjM/bsf0gh-2fef4e86ed1a45cb2143e402298bc0f1/
+WARNING 2023-08-04 16:26:05,112 basehttp "GET /activate/MjM/bsf0gh-2fef4e86ed1a45cb2143e402298bc0f1/ HTTP/1.1" 400 5578
+INFO 2023-08-04 16:26:15,785 basehttp "GET /activate/MjQ/bsf1k5-4d7e6b391de0308cdb062ac614539769/ HTTP/1.1" 302 0
+INFO 2023-08-04 16:26:15,802 basehttp "GET /active_success/ HTTP/1.1" 302 0
+INFO 2023-08-04 16:26:28,231 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-04 16:26:28,244 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 16:26:33,662 basehttp "POST /admin/accounts/user/ HTTP/1.1" 200 7805
+INFO 2023-08-04 16:26:34,989 basehttp "POST /admin/accounts/user/ HTTP/1.1" 302 0
+INFO 2023-08-04 16:26:35,004 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10066
+INFO 2023-08-04 16:26:35,023 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 16:31:52,089 views All Project record fetched
+INFO 2023-08-04 16:31:52,092 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 16:31:52,094 views All Project record fetched
+INFO 2023-08-04 16:31:52,097 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 16:35:04,597 views All Project record fetched
+INFO 2023-08-04 16:35:04,600 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 16:35:04,602 views All Project record fetched
+INFO 2023-08-04 16:35:04,606 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 16:35:41,374 views All Project record fetched
+INFO 2023-08-04 16:35:41,376 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 16:35:41,378 views All Project record fetched
+INFO 2023-08-04 16:35:41,384 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 16:55:39,769 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 9932
+INFO 2023-08-04 16:55:39,834 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 16:59:45,711 basehttp "OPTIONS /accounts/register/ HTTP/1.1" 200 0
+INFO 2023-08-04 16:59:51,592 basehttp "POST /accounts/register/ HTTP/1.1" 201 293
+INFO 2023-08-04 17:00:05,005 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-04 17:00:05,024 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 17:00:20,282 basehttp "GET /activate/MjU/bsf37m-a2507ec37cdef507dc2e4451260275f0/ HTTP/1.1" 302 0
+INFO 2023-08-04 17:00:20,304 basehttp "GET /active_success/ HTTP/1.1" 302 0
+INFO 2023-08-04 17:00:34,692 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-04 17:00:34,711 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 17:02:00,117 views All Project record fetched
+INFO 2023-08-04 17:02:00,120 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:02:00,169 views All Project record fetched
+INFO 2023-08-04 17:02:00,173 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:17:42,545 views All Project record fetched
+INFO 2023-08-04 17:17:42,547 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:17:42,549 views All Project record fetched
+INFO 2023-08-04 17:17:42,553 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:28:43,810 basehttp "OPTIONS /access/ HTTP/1.1" 200 0
+INFO 2023-08-04 17:28:44,105 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-04 17:28:44,508 views All Project record fetched
+INFO 2023-08-04 17:28:44,512 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:28:44,558 views All Project record fetched
+INFO 2023-08-04 17:28:44,563 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:29:43,008 views All Project record fetched
+INFO 2023-08-04 17:29:43,011 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:29:44,266 views All Project record fetched
+INFO 2023-08-04 17:29:44,270 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:29:57,049 views All Project record fetched
+INFO 2023-08-04 17:29:57,054 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:29:57,057 views All Project record fetched
+INFO 2023-08-04 17:29:57,061 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:31:19,332 views All Project record fetched
+INFO 2023-08-04 17:31:19,335 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:31:19,337 views All Project record fetched
+INFO 2023-08-04 17:31:19,342 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:36:54,315 views All Project record fetched
+INFO 2023-08-04 17:36:54,320 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:36:54,322 views All Project record fetched
+INFO 2023-08-04 17:36:54,326 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:37:16,835 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-04 17:37:16,931 views All Project record fetched
+INFO 2023-08-04 17:37:16,938 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:37:16,940 views All Project record fetched
+INFO 2023-08-04 17:37:16,943 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:37:22,261 views All Project record fetched
+INFO 2023-08-04 17:37:22,264 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:37:22,266 views All Project record fetched
+INFO 2023-08-04 17:37:22,271 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:38:09,049 views All Project record fetched
+INFO 2023-08-04 17:38:09,052 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:38:09,055 views All Project record fetched
+INFO 2023-08-04 17:38:09,058 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:38:15,752 views All Project record fetched
+INFO 2023-08-04 17:38:15,757 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:38:15,759 views All Project record fetched
+INFO 2023-08-04 17:38:15,763 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:38:30,058 views All Project record fetched
+INFO 2023-08-04 17:38:30,060 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:38:30,062 views All Project record fetched
+INFO 2023-08-04 17:38:30,064 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:38:53,084 views All Project record fetched
+INFO 2023-08-04 17:38:53,087 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:38:53,090 views All Project record fetched
+INFO 2023-08-04 17:38:53,094 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:38:54,759 views All Project record fetched
+INFO 2023-08-04 17:38:54,761 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 17:38:54,764 views All Project record fetched
+INFO 2023-08-04 17:38:54,767 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:08:23,401 views All Project record fetched
+INFO 2023-08-04 18:08:23,404 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:08:23,406 views All Project record fetched
+INFO 2023-08-04 18:08:23,411 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:08:26,654 views All Project record fetched
+INFO 2023-08-04 18:08:26,658 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:08:26,661 views All Project record fetched
+INFO 2023-08-04 18:08:26,666 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:23:21,089 views All Project record fetched
+INFO 2023-08-04 18:23:21,093 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:23:21,098 views All Project record fetched
+INFO 2023-08-04 18:23:21,104 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:23:21,222 views All Project record fetched
+INFO 2023-08-04 18:23:21,225 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:30:53,165 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-04 18:41:55,730 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-04 18:41:55,952 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-04 18:41:55,971 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-08-04 18:41:55,972 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-08-04 18:41:55,974 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-08-04 18:41:55,975 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-08-04 18:41:55,975 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-08-04 18:41:56,004 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-08-04 18:41:56,005 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-08-04 18:41:56,005 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-08-04 18:41:56,005 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-08-04 18:41:56,005 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-08-04 18:41:56,005 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-08-04 18:41:56,011 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-08-04 18:41:56,011 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-08-04 18:41:56,022 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-08-04 18:41:56,036 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-08-04 18:41:56,044 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-08-04 18:41:56,050 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-08-04 18:41:56,051 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2023-08-04 18:41:56,072 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2023-08-04 18:42:55,554 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-04 18:43:14,383 views All Project record fetched
+INFO 2023-08-04 18:43:14,386 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:43:14,388 views All Project record fetched
+INFO 2023-08-04 18:43:14,392 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:43:43,351 views All Project record fetched
+INFO 2023-08-04 18:43:43,354 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:43:43,357 views All Project record fetched
+INFO 2023-08-04 18:43:43,360 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:49:17,794 views All Project record fetched
+INFO 2023-08-04 18:49:17,796 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:49:17,798 views All Project record fetched
+INFO 2023-08-04 18:49:17,803 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:49:24,551 views All Project record fetched
+INFO 2023-08-04 18:49:24,554 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:49:24,556 views All Project record fetched
+INFO 2023-08-04 18:49:24,560 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:49:51,908 views All Project record fetched
+INFO 2023-08-04 18:49:51,913 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:49:51,917 views All Project record fetched
+INFO 2023-08-04 18:49:51,922 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:49:58,691 views All Project record fetched
+INFO 2023-08-04 18:49:58,696 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:49:58,699 views All Project record fetched
+INFO 2023-08-04 18:49:58,702 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:51:19,734 views All Project record fetched
+INFO 2023-08-04 18:51:19,737 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:51:20,750 views All Project record fetched
+INFO 2023-08-04 18:51:20,753 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:51:35,736 views All Project record fetched
+INFO 2023-08-04 18:51:35,740 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:51:40,984 views All Project record fetched
+INFO 2023-08-04 18:51:40,989 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 18:51:40,991 views All Project record fetched
+INFO 2023-08-04 18:51:40,996 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 19:03:32,757 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-04 19:03:32,848 views All Project record fetched
+INFO 2023-08-04 19:03:32,854 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 19:03:32,858 views All Project record fetched
+INFO 2023-08-04 19:03:32,862 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 19:03:36,049 views All Project record fetched
+INFO 2023-08-04 19:03:36,055 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 19:03:36,059 views All Project record fetched
+INFO 2023-08-04 19:03:36,062 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 19:26:19,640 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-04 19:27:43,749 views All Project record fetched
+INFO 2023-08-04 19:27:43,752 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 19:27:43,754 views All Project record fetched
+INFO 2023-08-04 19:27:43,758 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 19:28:00,745 views All Project record fetched
+INFO 2023-08-04 19:28:00,748 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 19:28:00,750 views All Project record fetched
+INFO 2023-08-04 19:28:00,753 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 19:28:39,169 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-04 19:29:19,743 views All Project record fetched
+INFO 2023-08-04 19:29:19,746 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 19:29:19,748 views All Project record fetched
+INFO 2023-08-04 19:29:19,751 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 19:30:29,734 views All Project record fetched
+INFO 2023-08-04 19:30:29,738 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 19:30:35,283 views All Project record fetched
+INFO 2023-08-04 19:30:35,287 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 19:30:35,289 views All Project record fetched
+INFO 2023-08-04 19:30:35,295 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 19:30:53,090 views All Project record fetched
+INFO 2023-08-04 19:30:53,095 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 19:30:53,098 views All Project record fetched
+INFO 2023-08-04 19:30:53,102 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 19:30:56,101 views All Project record fetched
+INFO 2023-08-04 19:30:56,107 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 19:30:56,112 views All Project record fetched
+INFO 2023-08-04 19:30:56,116 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 20:34:09,535 views All Project record fetched
+INFO 2023-08-04 20:34:09,538 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 20:34:09,540 views All Project record fetched
+INFO 2023-08-04 20:34:09,543 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 21:52:05,252 basehttp "OPTIONS /access/ HTTP/1.1" 200 0
+INFO 2023-08-04 21:52:05,468 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-04 21:52:29,366 views All Project record fetched
+INFO 2023-08-04 21:52:29,369 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 21:52:29,371 views All Project record fetched
+INFO 2023-08-04 21:52:29,375 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 21:52:55,452 views All Project record fetched
+INFO 2023-08-04 21:52:55,454 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 21:52:55,457 views All Project record fetched
+INFO 2023-08-04 21:52:55,461 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 21:54:28,476 views All Project record fetched
+INFO 2023-08-04 21:54:28,478 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 21:54:28,480 views All Project record fetched
+INFO 2023-08-04 21:54:28,484 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 21:58:41,487 views All Project record fetched
+INFO 2023-08-04 21:58:41,491 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 21:58:41,495 views All Project record fetched
+INFO 2023-08-04 21:58:41,499 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 22:01:10,369 views All Project record fetched
+INFO 2023-08-04 22:01:10,375 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 22:01:10,380 views All Project record fetched
+INFO 2023-08-04 22:01:10,385 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 22:01:46,844 views All Project record fetched
+INFO 2023-08-04 22:01:46,847 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 22:01:46,849 views All Project record fetched
+INFO 2023-08-04 22:01:46,854 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 22:03:54,925 views All Project record fetched
+INFO 2023-08-04 22:03:54,928 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 22:03:54,930 views All Project record fetched
+INFO 2023-08-04 22:03:54,933 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 22:05:28,041 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-04 22:05:28,057 views All Project record fetched
+INFO 2023-08-04 22:05:28,061 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 22:05:28,064 views All Project record fetched
+INFO 2023-08-04 22:05:28,068 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+WARNING 2023-08-04 22:09:06,908 log Unauthorized: /access/
+WARNING 2023-08-04 22:09:06,939 basehttp "POST /access/ HTTP/1.1" 401 63
+INFO 2023-08-04 22:09:21,138 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-04 22:09:21,192 views All Project record fetched
+INFO 2023-08-04 22:09:21,198 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 22:09:21,201 views All Project record fetched
+INFO 2023-08-04 22:09:21,204 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 22:09:24,364 views All Project record fetched
+INFO 2023-08-04 22:09:24,369 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 22:09:24,377 views All Project record fetched
+INFO 2023-08-04 22:09:24,382 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+WARNING 2023-08-04 22:17:02,614 log Unauthorized: /access/
+WARNING 2023-08-04 22:17:02,615 basehttp "POST /access/ HTTP/1.1" 401 63
+INFO 2023-08-04 22:17:40,589 views All Project record fetched
+INFO 2023-08-04 22:17:40,592 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 22:17:40,595 views All Project record fetched
+INFO 2023-08-04 22:17:40,598 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 22:29:47,568 views All Project record fetched
+INFO 2023-08-04 22:29:47,570 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 22:29:47,572 views All Project record fetched
+INFO 2023-08-04 22:29:47,575 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 23:39:47,198 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-04 23:39:47,497 views All Project record fetched
+INFO 2023-08-04 23:39:47,501 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 23:39:47,504 views All Project record fetched
+INFO 2023-08-04 23:39:47,509 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 23:39:50,758 views All Project record fetched
+INFO 2023-08-04 23:39:50,762 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-04 23:39:50,765 views All Project record fetched
+INFO 2023-08-04 23:39:50,770 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890

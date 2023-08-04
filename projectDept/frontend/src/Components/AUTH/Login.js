@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
-function Login() {
+function Login({setIsAuthenticated }) {
 
     const {register,handleSubmit}=useForm()
     const navigate = useNavigate()
@@ -13,7 +13,10 @@ function Login() {
             console.log(result.data.access)
             sessionStorage.setItem('access',result.data.access)
             sessionStorage.setItem('refresh',result.data.refresh)
-        navigate('/home')
+            
+            setIsAuthenticated(true)      
+            
+            navigate('/home')
 
     }
 
@@ -21,7 +24,7 @@ function Login() {
    <>
 
             <div className='container'>
-                <h1>SignUp Form :</h1><hr/>
+                <h1>Login Form :</h1><hr/>
                 <form onSubmit={handleSubmit(saveData)}>
 
                     <label htmlFor='un'>Username</label>

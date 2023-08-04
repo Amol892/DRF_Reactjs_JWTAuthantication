@@ -1,0 +1,22 @@
+def Activate_account(request,uidb64,token):
+
+
+    try:
+        uid = force_bytes(urlsafe_base64_decode(uidb64))
+        user = User.objects.get(pk=uid)
+        print(user)
+        print(token)
+    except (TypeError, ValueError, OverflowError, get_user_model().DoesNotExist):
+        print()
+        user = None
+    print(default_token_generator.check_token(user,token))
+    if user is not None and default_token_generator.check_token(user,token):
+        #Activate user account
+        user.is_active = True
+        user.save()
+        messages.success(request,'Congratulation you account is activated!!')
+        return redirect('Congratulation you account is activated!!')
+        
+    else:
+        return HttpResponse('Account information is not correct')
+    

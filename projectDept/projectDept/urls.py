@@ -17,8 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 from rest_framework_simplejwt.views import token_obtain_pair,token_refresh
+from django.views.generic import RedirectView
 
-from accounts.views import Activate_account
+from accounts.views import Account_activation_API
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -26,5 +27,6 @@ urlpatterns = [
     path('access/',token_obtain_pair),
     path('refresh/',token_refresh),
     path('department/',include('project.urls')),
-    path('activate/<str:uidb64>/<str:token>/',Activate_account,name='activate'),
+    path('activate/<str:uid>/<str:token>/',Account_activation_API.as_view(),name='activate'),
+    path('active_success/',RedirectView.as_view(url='http://localhost:3000/login/'),name='activation_success')
 ]
