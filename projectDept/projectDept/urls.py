@@ -18,7 +18,6 @@ from django.contrib import admin
 from django.urls import path,include
 from rest_framework_simplejwt.views import token_obtain_pair,token_refresh
 from django.views.generic import RedirectView
-
 from accounts.views import Account_activation_API
 
 urlpatterns = [
@@ -28,5 +27,6 @@ urlpatterns = [
     path('refresh/',token_refresh),
     path('department/',include('project.urls')),
     path('activate/<str:uid>/<str:token>/',Account_activation_API.as_view(),name='activate'),
-    path('active_success/',RedirectView.as_view(url='http://localhost:3000/login/'),name='activation_success')
+    path('active_success/',RedirectView.as_view(url='http://localhost:3000/accountactivation/'),name='activation_success')
+    
 ]

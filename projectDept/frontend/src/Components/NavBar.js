@@ -18,7 +18,7 @@ function NavBar({isAuthenticated}) {
       <div className="navbar-nav">
             {!isAuthenticated && (
               <>
-                <NavLink style={{marginLeft:'500px',fontSize:'50px'}} className="nav-link" to="/signup"><b>SignUp</b></NavLink>
+                <NavLink style={{marginLeft:'1200px',fontSize:'50px'}} className="nav-link" to="/signup"><b>SignUp</b></NavLink>
                 <NavLink style={{marginLeft:'100px',fontSize:'50px'}} className="nav-link" to="/login"><b>Login</b></NavLink>
               </>
             )}

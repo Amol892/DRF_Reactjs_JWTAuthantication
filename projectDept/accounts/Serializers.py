@@ -37,7 +37,7 @@ class registerUser(serializers.ModelSerializer):
         print(domain)
         
         #Activation link 
-        activation_link = f'http://{domain}/activate/{uid}/{token}/'
+        activation_link = f'http://localhost:3000/activate/{uid}/{token}/'
         print(activation_link)
         #Email structure elements
         Subject='Activate your account'

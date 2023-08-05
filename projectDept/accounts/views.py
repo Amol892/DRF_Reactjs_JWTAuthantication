@@ -27,8 +27,8 @@ class RegisterAPI(APIView):
         if serializer.is_valid():
             
             serializer.save()
-            messages.success(request,"Your account is created")
-            return Response(data=serializer.data,status=status.HTTP_201_CREATED)
+            
+            return Response(data={'message':'Your account is created and check mail for account activation link'},status=status.HTTP_201_CREATED)
         return Response(data=serializer.errors,status=status.HTTP_400_BAD_REQUEST)
     
 
@@ -37,16 +37,19 @@ class Account_activation_API(APIView):
     def get(self,request,uid,token):
         
         uid = force_bytes(urlsafe_base64_decode(uid))
+        
         if uid and token:
             try:
-                print(uid)
+                
                 user = User.objects.get(pk=uid)
+                
             except (TypeError, ValueError, OverflowError, User.DoesNotExist):
-                return Response({'message': 'Invalid activation link'}, status=status.HTTP_400_BAD_REQUEST)
+                return Response({"success":False,'message': 'Invalid activation link'}, status=status.HTTP_400_BAD_REQUEST)
             
         if user is not None and default_token_generator.check_token(user, token):
+                
                 user.is_active = True
                 user.save()
-                return redirect('activation_success')
+                return Response({"success":True,'message': 'Your Account is successfully activated'}, status=status.HTTP_200_OK)
             
-        return Response({'message': 'Invalid activation token'}, status=status.HTTP_400_BAD_REQUEST)
+        return Response({"success":False,'message': 'Invalid activation token'}, status=status.HTTP_400_BAD_REQUEST)

@@ -2,21 +2,34 @@ import React from 'react'
 import { useForm } from 'react-hook-form'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
-
+import { useState } from 'react'
 function Signup() {
 
         const {register,handleSubmit}=useForm()
         const navigate = useNavigate()
-
+        const [message, setMessage] = useState(' ');
+        const [error,setError]=useState([])
         async function saveData(data){
-               await axios.post('http://localhost:8000/accounts/register/',data)
-               navigate('/login')
+               await axios.post('http://localhost:8000/accounts/register/',data).then(response=>{
+                    setMessage(response.data.message)
+                    navigate('/login')
+               }).catch(error=>{
+                
+                    console.log(error.response.data)
+                    setError(error.response.data)
+               })
+               
         }
 
   return (
     <>
             <div className='container'>
                 <h1>SignUp Form :</h1><hr/>
+                  {message && 
+                      <div class="alert alert-success" role="alert">
+                      <h3>{message}</h3>
+                  </div>
+                  }
                 <form onSubmit={handleSubmit(saveData)}>
 
                     <label htmlFor='fn'>First Name</label>
@@ -26,14 +39,15 @@ function Signup() {
                     <input type='text' id='ln' className='form-control' {...register('last_name')}/><br/><br/>
 
                     <label htmlFor='un'>Username</label>
-                    <input type='text' id='un' className='form-control' {...register('username')}/><br/><br/>
+                    <input type='text' id='un' className='form-control' {...register('username')}/><br/>
+                    {error.username && <h4 style={{color:'red'}}>{error.username}</h4>}<br/><br/>
 
                     <label htmlFor='ps'>Password</label>
-                    <input type='password' id='psd' className='form-control' {...register('password')}/><br/><br/>
-
+                    <input type='password' id='psd' className='form-control' {...register('password')}/><br/>
+                    {error.password && <h4 style={{color:'red'}}>{error.password}</h4>}<br/><br/>
                     <label htmlFor='em'>Email Id</label>
-                    <input type='email' id='em' className='form-control' {...register('email')}/><br/><br/>
-
+                    <input type='email' id='em' className='form-control' {...register('email')}/><br/>
+                    {error.email && <h4 style={{color:'red'}}>{error.email}</h4>}<br/><br/>
                     <label htmlFor='pn'>Phone Number</label><br/><br/>
                     <input type='text' id='pn'  className='form-control' {...register('phone_number')}/><br/><br/>
 

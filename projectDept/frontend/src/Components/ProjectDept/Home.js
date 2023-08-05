@@ -2,8 +2,9 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom';
 import Plot from 'react-plotly.js';
+import Forbidden404 from '../Forbidden404';
 
-function Home() {
+function Home({isAuthenticated}) {
 
   useEffect(()=>{fetchData();},[])
   const [user,setUser]=useState([])
@@ -68,6 +69,8 @@ function Home() {
     padding: '10px',
   };
 
+  if(isAuthenticated)
+  {
   return (
     <>
     <div style={graphStyle}>
@@ -121,5 +124,10 @@ function Home() {
     </>
   )
 }
+else
+{
 
+  return <Forbidden404/>
+}
+}
 export default Home

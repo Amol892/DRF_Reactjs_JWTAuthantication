@@ -10,8 +10,8 @@ import Delete from './Components/ProjectDept/Delete';
 import Signup from './Components/AUTH/Signup';
 import Login from './Components/AUTH/Login';
 import Logout from './Components/AUTH/Logout';
-import { useNavigate } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
+import AccountActivation from './Components/Account_activation';
 
 
 
@@ -31,11 +31,12 @@ function App() {
           <Route path='/signup' element={<Signup/>}/>
           <Route path='/login' element={<Login setIsAuthenticated={setIsAuthenticated}/>}/>
     
-          <Route path='/add' element={<Add/>}/>      
-          <Route path='/home' element={<Home/>}/>
+          <Route path='/add' element={<Add isAuthenticated={isAuthenticated}/>}/>      
+          <Route path='/home' element={<Home isAuthenticated={isAuthenticated}/>}/>
           <Route path='/update/:pk/' element={<Update/>}/>
           <Route path='delete/:pk/' element={<Delete/>}/>
           <Route path='/logout' element={<Logout setIsAuthenticated={setIsAuthenticated}/>}/>
+          <Route path='/activate/:uid/:token/' element={<AccountActivation/>}/>
         
       </Routes>
       

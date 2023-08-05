@@ -397,3 +397,1333 @@ Traceback (most recent call last):
     response = handler(request, *args, **kwargs)
 TypeError: Account_activation_API.post() got an unexpected keyword argument 'uid'
 ERROR 2023-08-04 15:17:43,107 basehttp "POST /activate/MjA/bsey9r-278f83ab5ec3c87c08fbe866c362817b/ HTTP/1.1" 500 99296
+ERROR 2023-08-05 17:07:58,889 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:07:58,926 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116683
+ERROR 2023-08-05 17:07:58,953 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:07:58,958 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116683
+ERROR 2023-08-05 17:07:58,986 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:07:58,990 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116683
+ERROR 2023-08-05 17:08:13,498 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:08:13,505 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116683
+ERROR 2023-08-05 17:10:30,527 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:10:30,535 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116683
+ERROR 2023-08-05 17:13:06,518 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:13:06,529 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:13:07,210 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:13:07,214 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:13:11,200 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:13:11,205 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:13:15,196 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:13:15,200 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:13:26,585 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:13:26,598 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:13:49,519 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:13:49,523 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:13:51,510 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:13:51,513 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:14:16,506 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:14:16,509 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:14:19,195 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:14:19,200 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:14:31,539 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:14:31,544 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:14:36,195 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:14:36,198 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:14:51,936 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:14:51,940 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:14:51,979 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:14:51,986 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:15:20,337 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:15:20,351 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:15:20,447 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:15:20,452 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:15:27,270 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:15:27,274 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:15:27,330 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:15:27,335 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:15:45,547 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:15:45,551 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:15:46,202 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:15:46,207 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:15:52,906 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:15:52,911 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:15:52,976 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:15:52,981 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:16:22,840 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:16:22,842 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:16:22,904 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:16:22,908 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:16:23,206 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:16:23,208 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:16:23,244 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:16:23,248 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:16:34,346 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:16:34,351 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:16:34,410 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:16:34,416 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116709
+ERROR 2023-08-05 17:40:18,521 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:40:18,525 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116619
+ERROR 2023-08-05 17:40:18,557 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:40:18,560 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116619
+ERROR 2023-08-05 17:46:29,805 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:46:29,809 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116619
+ERROR 2023-08-05 17:46:29,840 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:46:29,843 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116619
+ERROR 2023-08-05 17:58:24,630 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:58:24,634 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116619
+ERROR 2023-08-05 17:58:24,666 log Internal Server Error: /activate/<str:uid>/<str:token>/
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 206, in urlsafe_base64_decode
+    return base64.urlsafe_b64decode(s.ljust(len(s) + len(s) % 4, b"="))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 133, in urlsafe_b64decode
+    return b64decode(s)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python310\lib\base64.py", line 87, in b64decode
+    return binascii.a2b_base64(s)
+binascii.Error: Incorrect padding
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py", line 39, in get
+    uid = force_bytes(urlsafe_base64_decode(uid))
+  File "D:\python files\Project tasks\customizeUserModel\venv\lib\site-packages\django\utils\http.py", line 208, in urlsafe_base64_decode
+    raise ValueError(e)
+ValueError: Incorrect padding
+ERROR 2023-08-05 17:58:24,669 basehttp "GET /activate/%3Cstr:uid%3E/%3Cstr:token%3E/ HTTP/1.1" 500 116619

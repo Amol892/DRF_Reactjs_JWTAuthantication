@@ -2,8 +2,9 @@ import React, { useEffect } from 'react'
 import {useForm} from 'react-hook-form';
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom';
+import Forbidden404 from '../Forbidden404';
 
-function Add() {
+function Add({isAuthenticated}) {
 
   const {register,handleSubmit}=useForm()
   const navigate = useNavigate()
@@ -25,9 +26,13 @@ function Add() {
      }
 
   }
+  if(isAuthenticated){
+
   return (
     <>
+    
       <div className='container'>
+        
         <h1>Add Project details :</h1><hr/>
         <form onSubmit={handleSubmit(saveData)}>
 
@@ -69,6 +74,11 @@ function Add() {
     
     </>
   )
+}
+else
+{
+  return <Forbidden404 />;
+}
 }
 
 export default Add

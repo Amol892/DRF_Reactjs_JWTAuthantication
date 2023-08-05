@@ -1,30 +1,44 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useForm } from 'react-hook-form'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
+import { useState } from 'react'
+import showAlert from '../Alert'
+
 
 function Login({setIsAuthenticated }) {
 
     const {register,handleSubmit}=useForm()
     const navigate = useNavigate()
-
+    const [error, setError] = useState('');
+    
     async function saveData(data){
-        const result = await axios.post('http://localhost:8000/access/',data)
-            console.log(result.data.access)
-            sessionStorage.setItem('access',result.data.access)
-            sessionStorage.setItem('refresh',result.data.refresh)
-            
-            setIsAuthenticated(true)      
-            
-            navigate('/home')
-
+            await axios.post('http://localhost:8000/access/',data).then(response=>{
+                setError(response.data.message)
+                sessionStorage.setItem('access',response.data.access)
+                sessionStorage.setItem('access',response.data.refresh)
+                setIsAuthenticated(true)      
+                navigate('/home')     
+            }).catch(error=>{
+                
+                setError(error.response.data.detail)
+                
+                
+            }
+            )
     }
 
+
+    
+    
   return (
    <>
-
+            
             <div className='container'>
                 <h1>Login Form :</h1><hr/>
+                
+                {showAlert(error)}             
+                
                 <form onSubmit={handleSubmit(saveData)}>
 
                     <label htmlFor='un'>Username</label>
