@@ -17,25 +17,25 @@ import AccountActivation from './Components/Account_activation';
 
 function App() {
 
+  const [isLoggedIn,setIsLoggedIn]=useState(sessionStorage.getItem('access'))
+  console.log(isLoggedIn)
   
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-  console.log(isAuthenticated)
   return (
     <>
     <BrowserRouter>
-      <NavBar isAuthenticated={isAuthenticated} />
+      <NavBar isLoggedIn={isLoggedIn}/>
 
       <Routes>
         
           
           <Route path='/signup' element={<Signup/>}/>
-          <Route path='/login' element={<Login setIsAuthenticated={setIsAuthenticated}/>}/>
+          <Route path='/login' element={<Login setIsLoggedIn={setIsLoggedIn}/>}/>
     
-          <Route path='/add' element={<Add isAuthenticated={isAuthenticated}/>}/>      
-          <Route path='/home' element={<Home isAuthenticated={isAuthenticated}/>}/>
+          <Route path='/add' element={<Add/>}/>      
+          <Route path='/home' element={<Home/>}/>
           <Route path='/update/:pk/' element={<Update/>}/>
           <Route path='delete/:pk/' element={<Delete/>}/>
-          <Route path='/logout' element={<Logout setIsAuthenticated={setIsAuthenticated}/>}/>
+          <Route path='/logout' element={<Logout setIsLoggedIn={setIsLoggedIn}/>}/>
           <Route path='/activate/:uid/:token/' element={<AccountActivation/>}/>
         
       </Routes>

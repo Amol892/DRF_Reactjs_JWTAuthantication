@@ -2,10 +2,10 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom';
 import Plot from 'react-plotly.js';
-import Forbidden404 from '../Forbidden404';
+import LoginCheck from '../LoginCheck';
 
-function Home({isAuthenticated}) {
-
+function Home() {
+  console.log(sessionStorage.getItem('access')) 
   useEffect(()=>{fetchData();},[])
   const [user,setUser]=useState([])
 
@@ -69,8 +69,7 @@ function Home({isAuthenticated}) {
     padding: '10px',
   };
 
-  if(isAuthenticated)
-  {
+ 
   return (
     <>
     <div style={graphStyle}>
@@ -100,7 +99,7 @@ function Home({isAuthenticated}) {
           {
             user.map(obj=>{
               return(
-                <tr>
+                <tr key={obj.id}>
                   <td>{obj.id}</td>
                   <td>{obj.project_name}</td>
                   <td>{obj.project_description}</td>
@@ -124,10 +123,5 @@ function Home({isAuthenticated}) {
     </>
   )
 }
-else
-{
 
-  return <Forbidden404/>
-}
-}
-export default Home
+export default LoginCheck(Home)

@@ -2,23 +2,23 @@ import React, { useEffect } from 'react'
 import {useForm} from 'react-hook-form';
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom';
-import Forbidden404 from '../Forbidden404';
+import LoginCheck from '../LoginCheck';
 
-function Add({isAuthenticated}) {
+function Add() {
 
   const {register,handleSubmit}=useForm()
   const navigate = useNavigate()
   const access = sessionStorage.getItem('access')
   async function saveData(data){
-     
+     console.log('Bearer' + " " + access)
      data.programming_langauge = data.programming_langauge.join(",")
 
      if(access){
      await axios.post('http://localhost:8000/department/projectdetails/',data,{
-      headers:{"Authorization":'Bearer'+" "+access}
+      headers:{"Authorization":'Bearer' + " " + access}
      })
 
-    navigate('/home')
+     navigate('/home')
      }
      else
      {
@@ -26,7 +26,7 @@ function Add({isAuthenticated}) {
      }
 
   }
-  if(isAuthenticated){
+  
 
   return (
     <>
@@ -60,7 +60,7 @@ function Add({isAuthenticated}) {
           <label htmlFor='pdd'>Project delivery date</label>
           <input type='text' id='pdd' className='form-control' {...register('project_delivery_date')}/><br/><br/>
 
-          <label htmlFor='ps'>Projec status</label><br/><br/>
+          <label htmlFor='ps'>Project status</label><br/><br/>
           <input type='radio' id='ps' value='Started' {...register('project_status')}/><b>Started</b><br/><br/>
           <input type='radio' id='ps' value='In-Process' {...register('project_status')}/><b>In-Process</b><br/><br/>
           <input type='radio' id='ps' value='Complated' {...register('project_status')}/><b>Complated</b><br/><br/>
@@ -75,10 +75,6 @@ function Add({isAuthenticated}) {
     </>
   )
 }
-else
-{
-  return <Forbidden404 />;
-}
-}
 
-export default Add
+
+export default LoginCheck(Add)

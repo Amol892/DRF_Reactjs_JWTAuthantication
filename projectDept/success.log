@@ -4752,3 +4752,568 @@ INFO 2023-08-05 23:29:12,087 autoreload Watching for file changes with StatReloa
 INFO 2023-08-05 23:31:36,364 basehttp "POST /accounts/register/ HTTP/1.1" 201 80
 INFO 2023-08-05 23:32:08,052 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\accounts\views.py changed, reloading.
 INFO 2023-08-05 23:32:08,621 autoreload Watching for file changes with StatReloader
+INFO 2023-08-05 23:33:25,298 basehttp "GET /activate/MzI/bshfu5-9d4c3af4deda6ad145fbe06f49fd2e9f/ HTTP/1.1" 200 67
+INFO 2023-08-05 23:33:25,387 basehttp "GET /activate/MzI/bshfu5-9d4c3af4deda6ad145fbe06f49fd2e9f/ HTTP/1.1" 200 67
+INFO 2023-08-05 23:33:39,980 basehttp "GET /activate/MzI/bshfu5-9d4c3af4deda6ad145fbe06f49fd2e9f/ HTTP/1.1" 200 67
+INFO 2023-08-05 23:33:56,100 basehttp "GET /activate/MzM/bshg0k-27dde1118cc4f566bda67ec681f213f3/ HTTP/1.1" 200 67
+INFO 2023-08-05 23:33:56,135 basehttp "GET /activate/MzM/bshg0k-27dde1118cc4f566bda67ec681f213f3/ HTTP/1.1" 200 67
+INFO 2023-08-05 23:34:17,048 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 11008
+INFO 2023-08-05 23:34:17,063 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-05 23:34:25,519 basehttp "POST /admin/accounts/user/ HTTP/1.1" 200 7962
+INFO 2023-08-05 23:34:27,018 basehttp "POST /admin/accounts/user/ HTTP/1.1" 302 0
+INFO 2023-08-05 23:34:27,033 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10067
+INFO 2023-08-05 23:34:27,057 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2023-08-05 23:34:32,077 log Bad Request: /activate/MzM/bshg0k-27dde1118cc4f566bda67ec681f213f3/
+WARNING 2023-08-05 23:34:32,078 basehttp "GET /activate/MzM/bshg0k-27dde1118cc4f566bda67ec681f213f3/ HTTP/1.1" 400 53
+WARNING 2023-08-05 23:34:32,086 log Bad Request: /activate/MzM/bshg0k-27dde1118cc4f566bda67ec681f213f3/
+WARNING 2023-08-05 23:34:32,087 basehttp "GET /activate/MzM/bshg0k-27dde1118cc4f566bda67ec681f213f3/ HTTP/1.1" 400 53
+WARNING 2023-08-05 23:34:54,588 log Unauthorized: /access/
+WARNING 2023-08-05 23:34:54,589 basehttp "POST /access/ HTTP/1.1" 401 63
+WARNING 2023-08-05 23:36:47,700 log Unauthorized: /access/
+WARNING 2023-08-05 23:36:47,701 basehttp "POST /access/ HTTP/1.1" 401 63
+INFO 2023-08-05 23:36:54,459 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 9932
+INFO 2023-08-05 23:36:54,477 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-05 23:37:45,078 basehttp "POST /accounts/register/ HTTP/1.1" 201 80
+WARNING 2023-08-05 23:38:14,178 log Bad Request: /accounts/register/
+WARNING 2023-08-05 23:38:14,179 basehttp "POST /accounts/register/ HTTP/1.1" 400 107
+WARNING 2023-08-05 23:38:57,335 log Bad Request: /accounts/register/
+WARNING 2023-08-05 23:38:57,336 basehttp "POST /accounts/register/ HTTP/1.1" 400 107
+INFO 2023-08-05 23:39:38,472 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-05 23:39:38,495 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-05 23:39:43,826 basehttp "POST /admin/accounts/user/ HTTP/1.1" 200 7805
+INFO 2023-08-05 23:39:45,401 basehttp "POST /admin/accounts/user/ HTTP/1.1" 302 0
+INFO 2023-08-05 23:39:45,415 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10066
+INFO 2023-08-05 23:39:45,433 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-05 23:46:58,429 autoreload Watching for file changes with StatReloader
+INFO 2023-08-05 23:50:44,802 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 9932
+INFO 2023-08-05 23:50:44,817 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-05 23:51:09,292 views All Project record fetched
+INFO 2023-08-05 23:51:09,296 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-05 23:51:09,297 views All Project record fetched
+INFO 2023-08-05 23:51:09,302 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-05 23:51:53,187 basehttp "POST /accounts/register/ HTTP/1.1" 201 80
+WARNING 2023-08-05 23:52:06,741 log Unauthorized: /access/
+WARNING 2023-08-05 23:52:06,742 basehttp "POST /access/ HTTP/1.1" 401 63
+INFO 2023-08-05 23:53:12,104 basehttp "GET /activate/MzU/bshgyc-03466b069f6b935103b07a8b86469ec2/ HTTP/1.1" 200 67
+INFO 2023-08-05 23:53:12,150 basehttp "GET /activate/MzU/bshgyc-03466b069f6b935103b07a8b86469ec2/ HTTP/1.1" 200 67
+INFO 2023-08-05 23:53:32,455 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-05 23:53:32,622 views All Project record fetched
+INFO 2023-08-05 23:53:32,629 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-05 23:53:32,633 views All Project record fetched
+INFO 2023-08-05 23:53:32,636 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-05 23:53:57,058 views All Project record fetched
+INFO 2023-08-05 23:53:57,063 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-05 23:53:57,068 views All Project record fetched
+INFO 2023-08-05 23:53:57,072 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-06 00:05:13,920 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-06 00:05:13,941 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-06 18:05:09,803 autoreload Watching for file changes with StatReloader
+INFO 2023-08-06 18:05:17,150 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-08-06 18:05:17,385 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2023-08-06 18:05:25,245 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-08-06 18:05:25,397 basehttp "GET /admin/ HTTP/1.1" 200 9140
+INFO 2023-08-06 18:05:30,824 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10471
+INFO 2023-08-06 18:05:30,985 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-06 18:05:37,181 basehttp "POST /admin/accounts/user/ HTTP/1.1" 200 7805
+INFO 2023-08-06 18:05:38,780 basehttp "POST /admin/accounts/user/ HTTP/1.1" 302 0
+INFO 2023-08-06 18:05:38,795 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 10066
+INFO 2023-08-06 18:05:38,813 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-08-06 18:06:16,623 basehttp "OPTIONS /accounts/register/ HTTP/1.1" 200 0
+INFO 2023-08-06 18:06:23,158 basehttp "POST /accounts/register/ HTTP/1.1" 201 80
+INFO 2023-08-06 18:06:44,257 basehttp "GET /activate/MzY/bsivmh-ddc1a4bffde7d30061e7172ebfe2aad1/ HTTP/1.1" 200 67
+INFO 2023-08-06 18:06:44,291 basehttp "GET /activate/MzY/bsivmh-ddc1a4bffde7d30061e7172ebfe2aad1/ HTTP/1.1" 200 67
+INFO 2023-08-07 10:02:59,604 autoreload Watching for file changes with StatReloader
+INFO 2023-08-07 10:06:55,105 views All Project record fetched
+INFO 2023-08-07 10:06:55,110 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 10:06:55,145 views All Project record fetched
+INFO 2023-08-07 10:06:55,147 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 10:07:05,520 basehttp "OPTIONS /access/ HTTP/1.1" 200 0
+INFO 2023-08-07 10:07:05,850 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 10:07:06,024 views All Project record fetched
+INFO 2023-08-07 10:07:06,029 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 10:07:06,036 views All Project record fetched
+INFO 2023-08-07 10:07:06,039 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 10:07:09,638 views All Project record fetched
+INFO 2023-08-07 10:07:09,643 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 10:07:09,650 views All Project record fetched
+INFO 2023-08-07 10:07:09,654 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 10:08:29,195 basehttp "OPTIONS /department/projectdetails/ HTTP/1.1" 200 0
+WARNING 2023-08-07 10:08:29,200 log Unauthorized: /department/projectdetails/
+WARNING 2023-08-07 10:08:29,215 basehttp "POST /department/projectdetails/ HTTP/1.1" 401 176
+INFO 2023-08-07 10:11:30,921 views All Project record fetched
+INFO 2023-08-07 10:11:30,923 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 10:11:30,926 views All Project record fetched
+INFO 2023-08-07 10:11:30,932 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+WARNING 2023-08-07 10:11:52,042 log Unauthorized: /department/projectdetails/
+WARNING 2023-08-07 10:11:52,043 basehttp "POST /department/projectdetails/ HTTP/1.1" 401 176
+INFO 2023-08-07 10:15:08,340 autoreload D:\python files\Project tasks\customizeUserModel\projectDept\project\views.py changed, reloading.
+INFO 2023-08-07 10:15:15,123 autoreload Watching for file changes with StatReloader
+INFO 2023-08-07 10:17:40,289 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 10:17:40,373 views All Project record fetched
+INFO 2023-08-07 10:17:40,379 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 10:17:40,384 views All Project record fetched
+INFO 2023-08-07 10:17:40,388 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+WARNING 2023-08-07 10:18:16,949 log Unauthorized: /department/projectdetails/
+WARNING 2023-08-07 10:18:16,950 basehttp "POST /department/projectdetails/ HTTP/1.1" 401 176
+WARNING 2023-08-07 10:39:05,666 log Unauthorized: /department/projectdetails/
+WARNING 2023-08-07 10:39:05,667 basehttp "POST /department/projectdetails/ HTTP/1.1" 401 176
+INFO 2023-08-07 10:41:49,555 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 10:41:49,698 views All Project record fetched
+INFO 2023-08-07 10:41:49,706 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 10:41:49,710 views All Project record fetched
+INFO 2023-08-07 10:41:49,718 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 10:41:54,943 views All Project record fetched
+INFO 2023-08-07 10:41:54,946 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 10:41:54,948 views All Project record fetched
+INFO 2023-08-07 10:41:54,952 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 10:43:15,911 views All Project record fetched
+INFO 2023-08-07 10:43:15,918 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 10:43:15,951 views All Project record fetched
+INFO 2023-08-07 10:43:15,954 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 10:43:33,416 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 10:43:33,545 views All Project record fetched
+INFO 2023-08-07 10:43:33,556 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 10:43:33,570 views All Project record fetched
+INFO 2023-08-07 10:43:33,577 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 10:43:38,406 views All Project record fetched
+INFO 2023-08-07 10:43:38,412 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 10:43:38,417 views All Project record fetched
+INFO 2023-08-07 10:43:38,422 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 10:43:41,206 views All Project record fetched
+INFO 2023-08-07 10:43:41,210 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 10:43:41,213 views All Project record fetched
+INFO 2023-08-07 10:43:41,217 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:02:49,492 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 12:02:49,576 views All Project record fetched
+INFO 2023-08-07 12:02:49,583 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:02:49,587 views All Project record fetched
+INFO 2023-08-07 12:02:49,591 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:02:53,555 views All Project record fetched
+INFO 2023-08-07 12:02:53,560 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:02:53,568 views All Project record fetched
+INFO 2023-08-07 12:02:53,573 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:02:55,757 views All Project record fetched
+INFO 2023-08-07 12:02:55,762 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:02:55,764 views All Project record fetched
+INFO 2023-08-07 12:02:55,770 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:04:03,216 views All Project record fetched
+INFO 2023-08-07 12:04:03,219 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:04:03,221 views All Project record fetched
+INFO 2023-08-07 12:04:03,224 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:05:06,218 views All Project record fetched
+INFO 2023-08-07 12:05:06,221 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:05:06,223 views All Project record fetched
+INFO 2023-08-07 12:05:06,227 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:05:37,225 views All Project record fetched
+INFO 2023-08-07 12:05:37,230 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:08:44,251 views All Project record fetched
+INFO 2023-08-07 12:08:44,256 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:08:44,258 views All Project record fetched
+INFO 2023-08-07 12:08:44,263 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:09:11,878 views All Project record fetched
+INFO 2023-08-07 12:09:11,882 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:09:11,884 views All Project record fetched
+INFO 2023-08-07 12:09:11,888 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:11:20,846 basehttp "OPTIONS /access/ HTTP/1.1" 200 0
+INFO 2023-08-07 12:11:21,081 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 12:11:21,169 views All Project record fetched
+INFO 2023-08-07 12:11:21,176 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:11:21,180 views All Project record fetched
+INFO 2023-08-07 12:11:21,184 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:13:32,557 views All Project record fetched
+INFO 2023-08-07 12:13:32,562 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:13:32,564 views All Project record fetched
+INFO 2023-08-07 12:13:32,568 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:14:57,413 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 12:14:57,425 views All Project record fetched
+INFO 2023-08-07 12:14:57,431 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:14:57,434 views All Project record fetched
+INFO 2023-08-07 12:14:57,438 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:18:57,228 views All Project record fetched
+INFO 2023-08-07 12:18:57,232 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:18:57,234 views All Project record fetched
+INFO 2023-08-07 12:18:57,238 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:19:01,146 views All Project record fetched
+INFO 2023-08-07 12:19:01,152 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:19:01,182 views All Project record fetched
+INFO 2023-08-07 12:19:01,188 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:19:05,576 views All Project record fetched
+INFO 2023-08-07 12:19:05,579 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:19:05,584 views All Project record fetched
+INFO 2023-08-07 12:19:05,589 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:19:15,662 views All Project record fetched
+INFO 2023-08-07 12:19:15,671 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:19:15,676 views All Project record fetched
+INFO 2023-08-07 12:19:15,680 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:19:23,624 views All Project record fetched
+INFO 2023-08-07 12:19:23,629 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:19:23,638 views All Project record fetched
+INFO 2023-08-07 12:19:23,642 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:22:12,740 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 12:22:12,851 views All Project record fetched
+INFO 2023-08-07 12:22:12,857 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:22:12,861 views All Project record fetched
+INFO 2023-08-07 12:22:12,867 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:28:11,611 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 12:33:55,097 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 12:38:11,134 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 12:46:33,992 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 12:56:59,281 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 12:57:56,590 views All Project record fetched
+INFO 2023-08-07 12:57:56,596 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:57:56,631 views All Project record fetched
+INFO 2023-08-07 12:57:56,635 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:58:02,918 views All Project record fetched
+INFO 2023-08-07 12:58:02,921 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 12:58:02,924 views All Project record fetched
+INFO 2023-08-07 12:58:02,927 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:04:36,417 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 13:04:36,511 views All Project record fetched
+INFO 2023-08-07 13:04:36,517 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:04:36,520 views All Project record fetched
+INFO 2023-08-07 13:04:36,524 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:08:37,127 views All Project record fetched
+INFO 2023-08-07 13:08:37,130 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:08:37,133 views All Project record fetched
+INFO 2023-08-07 13:08:37,138 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:11:31,162 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 13:11:31,226 views All Project record fetched
+INFO 2023-08-07 13:11:31,230 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:11:31,233 views All Project record fetched
+INFO 2023-08-07 13:11:31,238 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:14:47,946 views All Project record fetched
+INFO 2023-08-07 13:14:47,951 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:14:47,953 views All Project record fetched
+INFO 2023-08-07 13:14:47,956 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:15:19,341 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 13:15:19,361 views All Project record fetched
+INFO 2023-08-07 13:15:19,365 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:15:19,380 views All Project record fetched
+INFO 2023-08-07 13:15:19,384 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:15:35,373 views All Project record fetched
+INFO 2023-08-07 13:15:35,376 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:15:35,379 views All Project record fetched
+INFO 2023-08-07 13:15:35,382 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:20:06,044 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 13:20:06,148 views All Project record fetched
+INFO 2023-08-07 13:20:06,155 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:20:06,160 views All Project record fetched
+INFO 2023-08-07 13:20:06,163 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:20:51,141 views All Project record fetched
+INFO 2023-08-07 13:20:51,144 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:20:51,146 views All Project record fetched
+INFO 2023-08-07 13:20:51,150 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:21:19,061 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 13:21:19,131 views All Project record fetched
+INFO 2023-08-07 13:21:19,137 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:21:19,141 views All Project record fetched
+INFO 2023-08-07 13:21:19,145 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:22:04,863 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 13:22:04,979 views All Project record fetched
+INFO 2023-08-07 13:22:04,984 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:22:04,987 views All Project record fetched
+INFO 2023-08-07 13:22:04,991 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:22:16,058 views All Project record fetched
+INFO 2023-08-07 13:22:16,064 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:22:16,067 views All Project record fetched
+INFO 2023-08-07 13:22:16,071 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:26:52,581 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 13:26:52,673 views All Project record fetched
+INFO 2023-08-07 13:26:52,679 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:26:52,684 views All Project record fetched
+INFO 2023-08-07 13:26:52,691 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:27:03,854 views All Project record fetched
+INFO 2023-08-07 13:27:03,857 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:27:03,859 views All Project record fetched
+INFO 2023-08-07 13:27:03,863 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:29:37,912 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 13:29:37,994 views All Project record fetched
+INFO 2023-08-07 13:29:37,997 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:29:38,000 views All Project record fetched
+INFO 2023-08-07 13:29:38,006 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:30:03,351 views All Project record fetched
+INFO 2023-08-07 13:30:03,355 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:30:03,358 views All Project record fetched
+INFO 2023-08-07 13:30:03,362 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:30:33,689 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 13:30:33,763 views All Project record fetched
+INFO 2023-08-07 13:30:33,767 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:30:33,770 views All Project record fetched
+INFO 2023-08-07 13:30:33,773 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:31:00,063 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 13:31:00,179 views All Project record fetched
+INFO 2023-08-07 13:31:00,183 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:31:00,185 views All Project record fetched
+INFO 2023-08-07 13:31:00,189 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:32:10,947 views All Project record fetched
+INFO 2023-08-07 13:32:10,949 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:32:10,952 views All Project record fetched
+INFO 2023-08-07 13:32:10,957 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:32:28,031 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 13:32:28,050 views All Project record fetched
+INFO 2023-08-07 13:32:28,054 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:32:28,064 views All Project record fetched
+INFO 2023-08-07 13:32:28,068 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:34:44,732 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 13:35:49,579 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 13:35:49,689 views All Project record fetched
+INFO 2023-08-07 13:35:49,696 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:35:49,699 views All Project record fetched
+INFO 2023-08-07 13:35:49,703 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:36:07,460 views All Project record fetched
+INFO 2023-08-07 13:36:07,463 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:36:07,466 views All Project record fetched
+INFO 2023-08-07 13:36:07,471 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:52:39,911 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 13:52:39,997 views All Project record fetched
+INFO 2023-08-07 13:52:40,002 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:52:40,008 views All Project record fetched
+INFO 2023-08-07 13:52:40,012 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:52:44,540 views All Project record fetched
+INFO 2023-08-07 13:52:44,544 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:52:44,546 views All Project record fetched
+INFO 2023-08-07 13:52:44,551 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 13:57:33,330 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 13:58:33,803 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 13:59:20,711 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 14:03:08,738 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 14:03:52,670 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 14:06:16,924 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 14:07:23,150 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 14:11:33,233 basehttp "OPTIONS /access/ HTTP/1.1" 200 0
+INFO 2023-08-07 14:11:33,468 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 14:13:01,984 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 14:15:00,327 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 14:15:00,419 views All Project record fetched
+INFO 2023-08-07 14:15:00,425 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 14:15:00,431 views All Project record fetched
+INFO 2023-08-07 14:15:00,435 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 14:15:08,029 views All Project record fetched
+INFO 2023-08-07 14:15:08,031 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 14:15:08,034 views All Project record fetched
+INFO 2023-08-07 14:15:08,038 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 15:12:01,134 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 15:12:01,229 views All Project record fetched
+INFO 2023-08-07 15:12:01,235 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 15:12:01,238 views All Project record fetched
+INFO 2023-08-07 15:12:01,241 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 15:12:04,599 views All Project record fetched
+INFO 2023-08-07 15:12:04,602 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 15:12:04,605 views All Project record fetched
+INFO 2023-08-07 15:12:04,608 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 15:20:40,956 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 15:20:41,043 views All Project record fetched
+INFO 2023-08-07 15:20:41,049 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 15:20:41,053 views All Project record fetched
+INFO 2023-08-07 15:20:41,057 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 15:20:44,524 views All Project record fetched
+INFO 2023-08-07 15:20:44,528 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 15:20:44,531 views All Project record fetched
+INFO 2023-08-07 15:20:44,535 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 15:22:26,158 views All Project record fetched
+INFO 2023-08-07 15:22:26,162 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 15:22:26,165 views All Project record fetched
+INFO 2023-08-07 15:22:26,169 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 15:27:20,825 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 15:27:20,913 views All Project record fetched
+INFO 2023-08-07 15:27:20,919 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 15:27:20,922 views All Project record fetched
+INFO 2023-08-07 15:27:20,926 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 15:27:22,594 views All Project record fetched
+INFO 2023-08-07 15:27:22,598 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 15:27:22,600 views All Project record fetched
+INFO 2023-08-07 15:27:22,605 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 15:28:34,599 views All Project record fetched
+INFO 2023-08-07 15:28:34,602 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 15:28:34,604 views All Project record fetched
+INFO 2023-08-07 15:28:34,608 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 15:28:45,014 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 15:28:45,032 views All Project record fetched
+INFO 2023-08-07 15:28:45,041 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 15:28:45,049 views All Project record fetched
+INFO 2023-08-07 15:28:45,053 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 15:33:47,042 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 15:33:47,253 views All Project record fetched
+INFO 2023-08-07 15:33:47,260 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 15:33:47,262 views All Project record fetched
+INFO 2023-08-07 15:33:47,267 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 15:33:48,857 views All Project record fetched
+INFO 2023-08-07 15:33:48,862 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 15:33:48,864 views All Project record fetched
+INFO 2023-08-07 15:33:48,867 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:06:34,668 autoreload Watching for file changes with StatReloader
+INFO 2023-08-07 21:08:55,612 basehttp "OPTIONS /access/ HTTP/1.1" 200 0
+INFO 2023-08-07 21:08:55,895 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 21:08:56,171 views All Project record fetched
+INFO 2023-08-07 21:08:56,175 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:08:56,178 views All Project record fetched
+INFO 2023-08-07 21:08:56,183 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:09:03,950 views All Project record fetched
+INFO 2023-08-07 21:09:03,955 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:09:03,958 views All Project record fetched
+INFO 2023-08-07 21:09:03,963 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:29:03,496 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 21:29:03,663 views All Project record fetched
+INFO 2023-08-07 21:29:03,666 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:29:03,687 views All Project record fetched
+INFO 2023-08-07 21:29:03,693 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:32:31,582 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 21:32:31,684 views All Project record fetched
+INFO 2023-08-07 21:32:31,689 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:32:31,694 views All Project record fetched
+INFO 2023-08-07 21:32:31,700 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:35:16,249 views All Project record fetched
+INFO 2023-08-07 21:35:16,253 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:35:30,913 views All Project record fetched
+INFO 2023-08-07 21:35:30,917 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:35:30,946 views All Project record fetched
+INFO 2023-08-07 21:35:30,951 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:36:00,535 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 21:36:00,602 views All Project record fetched
+INFO 2023-08-07 21:36:00,608 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:36:00,612 views All Project record fetched
+INFO 2023-08-07 21:36:00,616 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:37:08,078 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 21:37:52,033 views All Project record fetched
+INFO 2023-08-07 21:37:52,039 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:37:52,045 views All Project record fetched
+INFO 2023-08-07 21:37:52,049 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:38:15,895 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 21:38:29,880 views All Project record fetched
+INFO 2023-08-07 21:38:29,885 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:38:29,887 views All Project record fetched
+INFO 2023-08-07 21:38:29,892 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:39:37,226 views All Project record fetched
+INFO 2023-08-07 21:39:37,230 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:39:37,232 views All Project record fetched
+INFO 2023-08-07 21:39:37,236 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:40:21,222 views All Project record fetched
+INFO 2023-08-07 21:40:21,226 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:40:21,228 views All Project record fetched
+INFO 2023-08-07 21:40:21,233 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:42:53,384 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 21:42:53,479 views All Project record fetched
+INFO 2023-08-07 21:42:53,485 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:42:53,491 views All Project record fetched
+INFO 2023-08-07 21:42:53,495 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:43:21,664 views All Project record fetched
+INFO 2023-08-07 21:43:21,668 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:43:21,671 views All Project record fetched
+INFO 2023-08-07 21:43:21,675 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:48:10,542 views All Project record fetched
+INFO 2023-08-07 21:48:10,545 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:48:10,547 views All Project record fetched
+INFO 2023-08-07 21:48:10,551 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:50:35,811 views All Project record fetched
+INFO 2023-08-07 21:50:35,816 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:50:35,820 views All Project record fetched
+INFO 2023-08-07 21:50:35,824 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:50:42,779 views All Project record fetched
+INFO 2023-08-07 21:50:42,782 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:50:42,785 views All Project record fetched
+INFO 2023-08-07 21:50:42,790 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:51:34,068 views All Project record fetched
+INFO 2023-08-07 21:51:34,074 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:51:34,078 views All Project record fetched
+INFO 2023-08-07 21:51:34,082 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:52:13,248 views All Project record fetched
+INFO 2023-08-07 21:52:13,252 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:52:13,255 views All Project record fetched
+INFO 2023-08-07 21:52:13,259 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:52:19,385 views All Project record fetched
+INFO 2023-08-07 21:52:19,390 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:52:19,393 views All Project record fetched
+INFO 2023-08-07 21:52:19,396 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:54:07,779 views All Project record fetched
+INFO 2023-08-07 21:54:07,782 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:54:07,784 views All Project record fetched
+INFO 2023-08-07 21:54:07,788 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:54:49,673 views All Project record fetched
+INFO 2023-08-07 21:54:49,676 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:54:49,680 views All Project record fetched
+INFO 2023-08-07 21:54:49,684 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:55:32,051 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 21:55:32,159 views All Project record fetched
+INFO 2023-08-07 21:55:32,165 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:55:32,261 views All Project record fetched
+INFO 2023-08-07 21:55:32,292 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:56:37,743 views All Project record fetched
+INFO 2023-08-07 21:56:37,746 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:56:37,748 views All Project record fetched
+INFO 2023-08-07 21:56:37,753 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:57:06,901 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 21:57:07,007 views All Project record fetched
+INFO 2023-08-07 21:57:07,013 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:57:07,016 views All Project record fetched
+INFO 2023-08-07 21:57:07,022 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:57:20,171 views All Project record fetched
+INFO 2023-08-07 21:57:20,175 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:57:20,183 views All Project record fetched
+INFO 2023-08-07 21:57:20,188 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:57:41,605 views All Project record fetched
+INFO 2023-08-07 21:57:41,608 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:57:41,610 views All Project record fetched
+INFO 2023-08-07 21:57:41,614 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:57:45,462 views Project record fetched
+INFO 2023-08-07 21:57:45,469 basehttp "GET /department/projectdetails/26/ HTTP/1.1" 200 280
+INFO 2023-08-07 21:57:45,474 views Project record fetched
+INFO 2023-08-07 21:57:45,477 basehttp "GET /department/projectdetails/26/ HTTP/1.1" 200 280
+INFO 2023-08-07 21:57:48,102 basehttp "OPTIONS /department/projectdetails/26/ HTTP/1.1" 200 0
+INFO 2023-08-07 21:57:48,108 views Project records updated
+INFO 2023-08-07 21:57:48,160 basehttp "PUT /department/projectdetails/26/ HTTP/1.1" 205 280
+INFO 2023-08-07 21:57:48,485 views All Project record fetched
+INFO 2023-08-07 21:57:48,488 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:57:48,490 views All Project record fetched
+INFO 2023-08-07 21:57:48,493 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:58:07,271 views All Project record fetched
+INFO 2023-08-07 21:58:07,278 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 21:58:07,284 views All Project record fetched
+INFO 2023-08-07 21:58:07,289 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 22:02:50,146 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 22:02:50,248 views All Project record fetched
+INFO 2023-08-07 22:02:50,254 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 22:02:50,256 views All Project record fetched
+INFO 2023-08-07 22:02:50,261 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 22:03:22,416 views All Project record fetched
+INFO 2023-08-07 22:03:22,422 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 22:03:22,429 views All Project record fetched
+INFO 2023-08-07 22:03:22,434 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 22:03:41,031 basehttp "POST /access/ HTTP/1.1" 200 486
+INFO 2023-08-07 22:03:41,120 views All Project record fetched
+INFO 2023-08-07 22:03:41,125 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 22:03:41,128 views All Project record fetched
+INFO 2023-08-07 22:03:41,132 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 22:03:45,926 views All Project record fetched
+INFO 2023-08-07 22:03:45,930 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 22:03:45,933 views All Project record fetched
+INFO 2023-08-07 22:03:45,938 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 22:10:47,289 basehttp "OPTIONS /department/projectdetails/ HTTP/1.1" 200 0
+INFO 2023-08-07 22:10:47,351 views New Project records added
+INFO 2023-08-07 22:10:47,352 basehttp "POST /department/projectdetails/ HTTP/1.1" 201 289
+INFO 2023-08-07 22:10:47,424 views All Project record fetched
+INFO 2023-08-07 22:10:47,429 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 1180
+INFO 2023-08-07 22:10:47,432 views All Project record fetched
+INFO 2023-08-07 22:10:47,435 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 1180
+INFO 2023-08-07 22:11:04,894 views All Project record fetched
+INFO 2023-08-07 22:11:04,898 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 1180
+INFO 2023-08-07 22:11:04,900 views All Project record fetched
+INFO 2023-08-07 22:11:04,905 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 1180
+INFO 2023-08-07 22:11:15,687 basehttp "OPTIONS /department/projectdetails/29/ HTTP/1.1" 200 0
+INFO 2023-08-07 22:11:15,713 views All Project record fetched
+INFO 2023-08-07 22:11:15,717 views Project records deleted
+INFO 2023-08-07 22:11:15,757 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 1180
+INFO 2023-08-07 22:11:15,760 views All Project record fetched
+INFO 2023-08-07 22:11:15,803 basehttp "DELETE /department/projectdetails/29/ HTTP/1.1" 204 16
+INFO 2023-08-07 22:11:15,807 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 22:11:29,420 views All Project record fetched
+INFO 2023-08-07 22:11:29,423 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 22:11:29,426 views All Project record fetched
+INFO 2023-08-07 22:11:29,430 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 22:11:33,077 views All Project record fetched
+INFO 2023-08-07 22:11:33,080 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 22:11:33,083 views All Project record fetched
+INFO 2023-08-07 22:11:33,087 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 22:11:35,105 views All Project record fetched
+INFO 2023-08-07 22:11:35,110 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890
+INFO 2023-08-07 22:11:35,117 views All Project record fetched
+INFO 2023-08-07 22:11:35,122 basehttp "GET /department/projectdetails/ HTTP/1.1" 200 890

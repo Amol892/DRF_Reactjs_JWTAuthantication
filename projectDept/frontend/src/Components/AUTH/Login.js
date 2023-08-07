@@ -4,33 +4,34 @@ import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import { useState } from 'react'
 import showAlert from '../Alert'
+import NavBar from '../NavBar'
 
 
-function Login({setIsAuthenticated }) {
+function Login({setIsLoggedIn}) {
 
     const {register,handleSubmit}=useForm()
     const navigate = useNavigate()
     const [error, setError] = useState('');
     
-    async function saveData(data){
+
+        async function saveData(data){
             await axios.post('http://localhost:8000/access/',data).then(response=>{
+                
+                sessionStorage.setItem('access',response.data.access)     
                 setError(response.data.message)
-                sessionStorage.setItem('access',response.data.access)
-                sessionStorage.setItem('access',response.data.refresh)
-                setIsAuthenticated(true)      
-                navigate('/home')     
+                setIsLoggedIn(sessionStorage.getItem('access'))
+                navigate('/home') ;
+                   
             }).catch(error=>{
                 
                 setError(error.response.data.detail)
-                
-                
+                   
             }
             )
+           
+          console.log(sessionStorage.getItem('access'))  
     }
-
-
-    
-    
+   
   return (
    <>
             
