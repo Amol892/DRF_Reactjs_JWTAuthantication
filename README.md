@@ -14,7 +14,7 @@ b) DRF integration with Reactjs
 1) pip install django-cors-headers
 2) setting.py :
    INSTALLED_APPS = [ 'corsheaders','rest-framework']
-   MIDDLEWARE = [ 'Corsheaders.middleware.CorsMiddleware']
+   MIDDLEWARE = [ 'corsheaders.middleware.CorsMiddleware']
    CORS_ORIGION_WHITELIST = ['http://localhost:3000']
 
 c) Frontend Reactjs creation process step
