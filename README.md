@@ -15,7 +15,7 @@ b) DRF integration with Reactjs
 2) setting.py :
    INSTALLED_APPS = [ 'corsheaders','rest-framework']
    MIDDLEWARE = [ 'corsheaders.middleware.CorsMiddleware']
-   CORS_ORIGION_WHITELIST = ['http://localhost:3000']
+   CORS_ORIGIN_WHITELIST = ['http://localhost:3000']
 
 c) Frontend Reactjs creation process step
 1) npx create-react-app app_name
